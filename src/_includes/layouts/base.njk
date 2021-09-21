@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ locale or site.x.locale }}" dir="{{ site.x.direction }}" prefix="og: https://ogp.me/ns#">
+    <head>
+        {% include "head/tech.njk" %}
+        {% include "head/meta.njk" %}
+        {% include "head/og.njk" %}
+        {% include "head/twitter.njk" %}
+        {% include "head/schema.njk" %}
+        {% block head %}{% endblock %}
+    </head>
+    <body>
+
+    {% if tags %}
+        {% set isPage = tags.includes("page") %}
+        {% set isArticle = tags.includes("post") %}
+    {% endif %}
+
+    {% include "page-header.njk" %}
+
+    <main id="main">
+    {% block body %}
+    {% if isArticle or isPage %}<article>{% endif %}
+        {{ content | safe }}
+    {% if isArticle or isPage %}</article>{% endif %}
+    {% endblock %}
+    </main>
+
+    {% include "page-navigation.njk" %}
+    {% include "page-footer.njk" %}
+
+    </body>
+</html>

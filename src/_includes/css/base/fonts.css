@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Inter';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url('/assets/fonts/Inter-roman.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+    font-named-instance: 'Italic';
+    src: url('/assets/fonts/Inter-italic.woff2') format('woff2');
+}
+
+:root {
+    font-family: var(--text-stack);
+    font-size: var(--text-size);
+    font-feature-settings: var(--text-settings);
+    letter-spacing: var(--text-spacing);
+    line-height: var(--text-height);
+    color-scheme: light dark;
+    color: var(--text);
+    background: var(--surface);
+}

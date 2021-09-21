@@ -1,0 +1,26 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "@id": "https://tobiasschmidt.me/#website",
+    "url": "https://tobiasschmidt.me/",
+    "name": "Tobias Schmidt's personal website",
+    "description": "Tobias Schmidt is a Digitalisation Expert in Munich, who enables companies and individuals to succeed in the digital era!",
+    "author": {
+        "@type": "Person",
+        "@id": "https://tobiasschmidt.me/profile/#person",
+        "name": "Tobias Schmidt",
+        "url": "https://tobiasschmidt.me/profile/#person"
+    },
+    "mainEntity": {
+        "@type": "Person",
+        "@id": "https://tobiasschmidt.me/profile/#person",
+        "name": "Tobias Schmidt",
+        "url": "https://tobiasschmidt.me/profile/#person"
+    },
+    "x": {
+        "domain": "tobiasschmidt.me",
+        "shortname": "ts",
+        "locale": "en",
+        "direction": "ltr"
+    }
+}

@@ -1,0 +1,9 @@
+header + *,
+* + section,
+* + footer {
+    margin-top: var(--gutter);
+}
+
+header * + * {
+    margin-top: 0;
+}

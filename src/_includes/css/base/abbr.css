@@ -1,0 +1,17 @@
+@media not screen and (hover: hover) {
+    abbr[title] {
+        text-decoration: none;
+    }
+
+    abbr[title]:after {
+        content: ' (' attr(title) ')';
+    }
+}
+
+@media screen and (hover: hover) {
+    abbr[title] {
+        text-decoration: underline dotted;
+        text-decoration-color: var(--decoration);
+        cursor: help;
+    }
+}

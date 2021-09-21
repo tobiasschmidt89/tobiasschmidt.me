@@ -1,0 +1,47 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "@id": "https://tobiasschmidt.me/profile/#person",
+    "url": "https://tobiasschmidt.me/profile/",
+    "name": "Tobias Schmidt",
+    "familyName": "Schmidt",
+    "givenName": "Tobias",
+    "email": "contact.tobias.schmidt@gmail.com",
+    "image": "https://tobiasschmidt.me/assets/img/tobias-schmidt.jpeg",
+    "description": "Tobias Schmidt is a Digitalisation Expert in Munich, who enables companies and individuals to succeed in the digital era!",
+    "jobTitle": "Digitalisation Expert",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Munich, Germany",
+        "postalCode": "81377",
+        "streetAddress": "Markomannenstraße 32"
+    },
+    "alumniOf": "University of Applied Sciences Munich",
+    "birthPlace": "Ulm, Germany",
+    "birthDate": "1989.05.05",
+    "height": "184 cm",
+    "gender": "male",
+    "nationality": "German",
+    "telephone": "0049 171 788 37 16",
+    "sameAs": [
+        "https://www.linkedin.com/in/tobiasschmidt89/",
+        "https://twitter.com/TobiasSchmidt89",
+        "https://plus.google.com/u/0/108071120455335478715",
+        "https://about.me/tobiasschmidt",
+        "https://de.quora.com/profile/Tobias-Schmidt",
+        "https://tobiasschmidt89.tumblr.com",
+        "https://medium.com/@TobiasSchmidt89",
+        "https://github.com/tobiasschmidt89",
+        "https://codepen.io/mrtobe/"
+    ],
+    "worksFor": "https://www.plan-net.com/en.html",
+    "x": {
+        "social": {
+            "default": "MrToBe",
+            "twitter": "@TobiasSchmidt89",
+            "github": "tobiasschmidt89",
+            "linkedin": "tobiasschmidt89"
+        },
+        "vatID": "DE40812354793"
+    }
+}

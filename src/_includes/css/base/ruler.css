@@ -1,0 +1,10 @@
+hr {
+    border: none;
+    border-top: var(--border);
+    width: 100%;
+}
+
+* + hr,
+hr + * {
+    margin-top: var(--gutter);
+}

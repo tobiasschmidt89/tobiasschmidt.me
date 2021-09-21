@@ -1,0 +1,50 @@
+:root {
+    --xxs: calc(0.125 * var(--md));
+    --xs: calc(0.25 * var(--md));
+    --sm: calc(0.5 * var(--md));
+    --md: 1.5rem;
+    --lg: calc(2 * var(--md));
+    --xl: calc(4 * var(--md));
+    --xxl: calc(8 * var(--md));
+
+    --gap: var(--md);
+    --gutter: var(--lg);
+    --frame: var(--lg) var(--md);
+
+    --text-stack: Inter, system-sans, system-ui, sans-serif;
+    --text-settings: 'kern' 1, 'liga' 1, 'frac' 1, 'case' 1, 'dlig' 1, 'ss03' 1;
+    --text-measure: 60ch;
+    --text-size: max(1em, 1.2vw);
+    --text-height: 1.7;
+    --text-spacing: -0.011em;
+
+    --bold: 700;
+
+    --text: rgb(0 0 0 / 0.95);
+    --link: rgb(0 0 0 / 0.7);
+    --decoration: rgb(120 120 120 / 0.3);
+    --surface: rgb(245 245 245);
+
+    --border: 1px solid var(--decoration);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: rgb(255 255 255 / 0.95);
+        --link: rgb(255 255 255 / 0.7);
+        --decoration: rgb(120 120 120 / 0.3);
+        --surface: rgb(20 20 20);
+    }
+}
+
+@media (min-width: 500px) {
+    :root {
+        --frame: var(--lg);
+    }
+}
+
+@media (min-width: 1000px) {
+    :root {
+        --frame: var(--xl);
+    }
+}

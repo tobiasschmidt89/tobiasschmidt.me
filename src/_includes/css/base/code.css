@@ -1,0 +1,67 @@
+pre,
+code {
+    font-family: Menlo, Courier, monospace;
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    word-wrap: break-word;
+
+    padding: var(--gap);
+    border: var(--border);
+    max-width: calc(100% + 2 * var(--gap));
+    overflow-x: auto;
+}
+
+:not(figure) > pre {
+    margin-left: calc(-1 * var(--gap));
+    margin-right: calc(-1 * var(--gap));
+}
+
+code[class*='language-'],
+pre[class*='language-'] {
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    tab-size: 4;
+    hyphens: none;
+}
+
+pre[class*='language-'] {
+}
+
+/* Inline code */
+:not(pre) > code {
+    padding: 0.075em 0.25em;
+    white-space: normal;
+}
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula,
+.hljs-comment,
+.hljs-quote,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+    color: var(--link);
+}
+
+.hljs-comment,
+.hljs-quote {
+    font-style: italic;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}

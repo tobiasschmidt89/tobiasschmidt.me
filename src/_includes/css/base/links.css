@@ -1,0 +1,23 @@
+a {
+    color: var(--link);
+}
+
+main a {
+    text-decoration: underline;
+    text-decoration-color: var(--decoration);
+}
+
+a:hover {
+    color: unset;
+    text-decoration-color: unset;
+}
+
+:is(h1, h2, h3) > a {
+    color: unset;
+    text-decoration: none;
+}
+
+.h-card {
+    text-decoration: none;
+    color: inherit;
+}

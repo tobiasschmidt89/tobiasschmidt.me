@@ -1,0 +1,19 @@
+body > header[aria-hidden='false'] {
+    position: absolute;
+    margin: -1px;
+    padding: 0;
+
+    height: 1px;
+    width: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    overflow: hidden;
+}
+
+body > header[aria-hidden='false']:focus-within {
+    all: unset;
+}
+
+body > header[aria-hidden='false']:not(:focus-within) + * {
+    margin-top: 0;
+}

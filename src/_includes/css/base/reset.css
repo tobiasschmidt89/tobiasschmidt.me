@@ -1,0 +1,48 @@
+/* We break it down to build it up again */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-size: 1rem;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    vertical-align: baseline;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    hanging-punctuation: first;
+}
+
+:not(img):not(picture)::selection {
+    color: var(--surface);
+    background-color: var(--text);
+}
+
+:not(script) + * {
+    margin-top: var(--gap);
+}
+
+body {
+    margin: auto;
+    max-width: calc(var(--text-measure) + 2 * var(--frame));
+    min-height: 100vh;
+    padding: var(--frame);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01s !important;
+        transition-duration: 0.01s !important;
+    }
+}
