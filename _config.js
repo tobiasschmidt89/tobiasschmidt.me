@@ -28,13 +28,13 @@ site.copy('assets/fonts')
     .copy('assets/js')
     .copy('tobiasschmidt.pgp')
 
-// Make data available for njk groupby filter
+// Make data available for njk groupby filter - will be resolved by Lume in upcoming version
 site.preprocess(
     ['.html'],
     (page) => (page._data.year = page.data.date.getFullYear())
 )
 
-// Add target blank to external links
+// Add target blank and noopener to external links
 site.process(['.html'], (page) => {
     const links = page.document.getElementsByTagName('a')
     Array.from(links).forEach((link) => {

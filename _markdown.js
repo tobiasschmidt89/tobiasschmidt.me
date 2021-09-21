@@ -5,9 +5,6 @@ import markdownItSub from 'https://jspm.dev/markdown-it-sub'
 import markdownItSup from 'https://jspm.dev/markdown-it-sup'
 import markdownItBlockImage from 'https://jspm.dev/markdown-it-block-image'
 
-import sizeOf from 'https://jspm.dev/image-size'
-import probe from 'https://jspm.dev/probe-image-size'
-
 export default {
     plugins: [
         markdownItMark,
