@@ -2,7 +2,7 @@ export const url = '/feed.json'
 
 export default function (
     { site, author, time, search },
-    { md, url, date, htmlUrl }
+    { njk, md, url, date, htmlUrl }
 ) {
     const feed = {
         version: 'https://jsonfeed.org/version/1',
@@ -26,7 +26,7 @@ export default function (
             title: post.data.title,
             content_html: htmlUrl(md(post.data.content), true),
             date_published: date(post.data.date, 'ATOM'),
-            date_modified: date(post.src.lastModified, 'ATOM'),
+            date_modified: date(post.data.date, 'ATOM'),
         })
     }
 

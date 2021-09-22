@@ -21,13 +21,15 @@ In case you like the content on this page I offer following ways for you to subs
 
 <section>
 
-## RSS and JSON Feed
+## What is a Feed?
 
 [RSS](https://en.wikipedia.org/wiki/RSS) ([Atom](<https://en.wikipedia.org/wiki/Atom_(Web_standard)>)) and [JSON Feed](https://www.jsonfeed.org/) are technologies to get updates from websites without visiting the site itself. They are used to receive latest news from a news site, or blog posts from a blog. The updates are listed in a “feed” which can be syndicated (synced) from the website to a “feed reader”.
 
 A feed usually contains a list of posts each with their date, title, author and content. Sometimes the content is just an excerpt, encouraging you to read the rest of the content on the original site. An excerpt can defeat the point of providing a feed, where a big benefit is that the reader can customise how the posts display in their feed reader to improve their reading experience.
 
 Feeds usually use .xml or .json file formats. For example, this site’s full RSS feed is available at [{{ site.url }}feed.xml]({{ site.url }}feed.xml) and [{{ site.url }}feed.json]({{ site.url }}feed.json). Browsers won’t render RSS in a readable way and you need a feed reader.
+
+## What is a Feed Reader?
 
 A feed reader is a service or app that collects feeds you’ve subscribed to, and displays them in a readable format. It makes it easy to read the updates from all your favourite feeds in one location, whether that’s on the web or using a dedicated feed reader app. Following you will find a list of feed readers:
 
