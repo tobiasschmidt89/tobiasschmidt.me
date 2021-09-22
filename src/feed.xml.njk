@@ -17,7 +17,7 @@
         <published>{{ post.data.date | date("ATOM") }}</published>
 		<updated>{{ post.data.date | date("ATOM") }}</updated>
 		<id>{{ post.data.url | url(true) }}</id>
-		<content type="html">{{ post.data.content | njk | md | htmlUrl(true) }}</content>
+		<content type="html">{{ post.data.content | njk(post.data) | md | htmlUrl(true) }}</content>
 	</entry>
 	{%- endfor %}
 </feed>
