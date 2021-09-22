@@ -3,7 +3,7 @@ url: /now/
 title: Now
 subtitle: What I'm currently doing
 description: What Im currently doing
-date: 2021-09-18
+date: 2021-09-22
 tags: now
 ---
 
@@ -31,6 +31,6 @@ tags: now
 
 <footer>
 
-_Updated {% datetime src.lastModified %}_
+_Updated {% datetime date %}_
 
 </footer>

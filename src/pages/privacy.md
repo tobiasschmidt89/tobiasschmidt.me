@@ -11,7 +11,7 @@ tags: legal
 
 # [{{ title }}](/)
 
-{% datetime lastModified %}
+{% datetime date %}
 
 </header>
 
