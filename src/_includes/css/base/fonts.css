@@ -25,4 +25,7 @@
     color-scheme: light dark;
     color: var(--text);
     background: var(--surface);
+    
+    text-rendering: geometricPrecision;
+    hanging-punctuation: first;
 }
