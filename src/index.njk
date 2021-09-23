@@ -23,7 +23,7 @@ tags:
 
 <nav>
     <ol reversed>
-    {% for year, posts in search.pages("post", "date=desc") | groupby("_data.year") %}
+    {% for year, posts in search.pages("post", "date=desc") | groupby("data.year") %}
     <li>
         <h2>{{ year }}</h2>
         <ol>
