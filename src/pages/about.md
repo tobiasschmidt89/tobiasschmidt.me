@@ -58,7 +58,7 @@ Content images are lazy loaded with the native `loading="lazy"` feature of brows
 
 ## Hosting
 
-This site is hosted on a [Hetzner](https://www.hetzner.de/) server. The connection is encrypted with a TLS certificate. I created a custom server configuration that optimises sever performance by using [good caching defaults](https://web.dev/love-your-cache/) and file compression. Additionally I configured the server to instruct browsers to send as few personal information as possible.
+This site is hosted on a [Hetzner](https://www.hetzner.de/) server. The connection is encrypted with a TLS certificate. I created a [custom server configuration](/server/) that optimises sever performance by using [good caching defaults](https://web.dev/love-your-cache/) and file compression. Additionally I configured the server to instruct browsers to send as few personal information as possible.
 
 </section>
 
