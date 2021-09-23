@@ -27,8 +27,16 @@
     background-color: var(--text);
 }
 
-:not(script) + * {
-    margin-top: var(--gap);
+:root {
+    font-family: var(--text-stack);
+    font-size: var(--text-size);
+    font-feature-settings: var(--text-settings);
+    letter-spacing: var(--text-spacing);
+    line-height: var(--text-height);
+    color-scheme: light dark;
+    color: var(--text);
+    background: var(--surface);
+    hanging-punctuation: first;
 }
 
 body {
@@ -36,6 +44,10 @@ body {
     max-width: calc(var(--text-measure) + 2 * var(--frame));
     min-height: 100vh;
     padding: var(--frame);
+}
+
+* + * {
+    margin-top: var(--gap);
 }
 
 @media (prefers-reduced-motion: reduce) {
