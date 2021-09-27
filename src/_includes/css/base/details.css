@@ -1,0 +1,15 @@
+details {
+    padding-top: var(--gap);
+    padding-bottom: var(--gap);
+    border-top: var(--border);
+    border-bottom: var(--border);
+}
+
+details + details {
+    margin-top: 0;
+    border-top: none;
+}
+
+details summary {
+    cursor: pointer;
+}
