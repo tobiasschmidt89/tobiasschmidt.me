@@ -5,7 +5,7 @@ const x = [
         const { x, ...rest } = data
         return rest
     },
-    'filter'
+    { type: 'filter' }
 ]
 
 // Used to render <time> html element
@@ -15,7 +15,7 @@ const datetime = [
         const humanDate = new Intl.DateTimeFormat('de-DE').format(date)
         return `<time datetime="${date}">${humanDate}</time>`
     },
-    'tag'
+    { type: 'tag' }
 ]
 
 

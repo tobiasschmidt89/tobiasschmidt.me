@@ -40,7 +40,7 @@ for (let p of process) {
 }
 
 for (let h of helper) {
-    site.helper(h[0], h[1], { type: h[2]})
+    site.helper(h[0], h[1], h[2])
 }
 
 export default site
