@@ -15,8 +15,9 @@ const imageLazyLoading = [
     ['.html'],
     (page) => {
         const images = page.document.getElementsByTagName('img')
-        Array.from(images).forEach((image) => {
-            image.setAttribute('loading', 'lazy')
+        Array.from(images).forEach((img) => {
+            img.setAttribute('loading', 'lazy')
+
             // Need to find another way to autogenerate img width and height
             // image.setAttribute('width', image.naturalWidth)
             // image.setAttribute('height', image.naturalHeight)
