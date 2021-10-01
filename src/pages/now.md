@@ -31,6 +31,8 @@ tags: now
 
 <footer>
 
+Check out [nownownow](https://nownownow.com/) to learn about the origin of the "/now" page.
+
 _Updated {% datetime date %}_
 
 </footer>
