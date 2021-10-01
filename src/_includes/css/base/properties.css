@@ -22,8 +22,8 @@
 
     --text: rgb(0 0 0 / 0.95);
     --link: rgb(0 0 0 / 0.7);
-    --decoration: rgb(120 120 120 / 0.3);
-    --surface: rgb(245 245 245);
+    --decoration: rgb(120 120 120 / 0.2);
+    --surface: rgb(250 250 250);
 
     --border: 1px solid var(--decoration);
 }
@@ -32,7 +32,7 @@
     :root {
         --text: rgb(255 255 255 / 0.95);
         --link: rgb(255 255 255 / 0.7);
-        --decoration: rgb(120 120 120 / 0.3);
+        --decoration: rgb(120 120 120 / 0.2);
         --surface: rgb(20 20 20);
     }
 }
