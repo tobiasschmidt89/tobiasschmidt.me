@@ -63,7 +63,7 @@ HTML, CSS and JavaScript
 : Web development is a technology branch that develops really fast and brings up new frameworks and programming languages every day. To keep up with this Tobias focused on a deep training of the fundamental web programming languages HTML, CSS and JavaScript—for new technologies he always tries to evaluate the effort to learn it in relation to the value it provides.
 
 Node and Deno
-: Every programmer has his go to general purpose programming language to automate everyday tasks. I chose [Node](https://nodejs.org/en/), a very obvious addition to my skillset as it relies on the same programming language that is used for the web. I also uses Node for writing servers and APIs, and uses it for data science and visualisation tasks. [Deno](https://deno.land/) is an evolution of Node by its own creator [Ryan Dahl](https://en.wikipedia.org/wiki/Ryan_Dahl). It tries to solve some design issues of Node while providing optimised DX. Therefore I am more and more migrating to Deno.
+: Every programmer has his go to general purpose programming language to automate everyday tasks. I chose [Node](https://nodejs.org/en/), a very obvious addition to my skillset as it relies on the same programming language that is used for the web. I also use Node for writing servers and APIs, and use it for data science and visualisation tasks. [Deno](https://deno.land/) is an evolution of Node by its own creator [Ryan Dahl](https://en.wikipedia.org/wiki/Ryan_Dahl). It tries to solve some design issues of Node while providing optimised DX. Therefore I started to migrate to Deno.
 
 </section><section>
 
