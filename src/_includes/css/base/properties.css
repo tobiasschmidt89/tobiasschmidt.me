@@ -12,7 +12,7 @@
     --frame: var(--lg) var(--md);
 
     --text-stack: Inter, system-sans, system-ui, sans-serif;
-    --text-settings: 'kern' 1, 'liga' 1, 'frac' 1, 'case' 1, 'dlig' 1, 'ss03' 1;
+    --text-settings: 'kern' 1, 'liga' 1, 'case' 1, 'dlig' 1, 'ss03' 1;
     --text-measure: 60ch;
     --text-size: max(1em, 1.2vw);
     --text-height: 1.7;
