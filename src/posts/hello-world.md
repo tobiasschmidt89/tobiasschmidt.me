@@ -32,9 +32,5 @@ So today I join the IndieWeb 🥳! I will post all kind of different thoughts on
 
 If you are interested in how this blog is created you can check out my [about page](/about/). In case you would like to receive updates on new posts you can find subscription options on my [subscribe page](/subscribe/).
 
-<footer>
-
 KR
 _Tobias_
-
-</footer>

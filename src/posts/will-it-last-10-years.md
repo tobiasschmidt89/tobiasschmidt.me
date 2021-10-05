@@ -29,10 +29,6 @@ So for this blog I will try to focus on exactly this---making a site that lasts.
 
 => I don't have superhuman powers 🦸‍♂️ to know if I am taking the right decisions to make this blog last. But I hope that I will be able to look back at this post in 10 years.
 
-<footer>
-
 _What do you think about taking a boring and minimalist approach to websites? What are your tactics to make a website that might last 10 or even 30 years? I would be happy to [hear about your thoughts](mailto:{{ author.email }})._
-
-</footer>
 
 {% include "abbr.njk" %}
