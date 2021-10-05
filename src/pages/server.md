@@ -67,7 +67,7 @@ Header set Cache-Control "max-age=31536000, public"
 </IfModule>
 
 # GZIP Compression
-<ifmodule mod_deflate.c>
+<IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE image/svg+xml
   AddOutputFilterByType DEFLATE application/javascript
   AddOutputFilterByType DEFLATE application/rss+xml
@@ -89,7 +89,7 @@ Header set Cache-Control "max-age=31536000, public"
   AddOutputFilterByType DEFLATE text/javascript
   AddOutputFilterByType DEFLATE text/plain
   AddOutputFilterByType DEFLATE text/xml
-</ifmodule>
+</IfModule>
 
 # Redirect 404 to Index
 ErrorDocument 404 /index.html
