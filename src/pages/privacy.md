@@ -57,8 +57,7 @@ The data processing controller on this website is:
 
 {{ author.givenName }} {{ author.familyName }}
 {{ author.address.streetAddress }}
-{{ author.address.postalCode }} {{ author.address.addressLocality }}
-
+{{ author.address.postalCode }} {{ author.address.addressLocality }}<br>
 [{{ author.telephone }}][Phone]
 [{{ author.email }}][Email] ([PGP])
 

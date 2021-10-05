@@ -22,8 +22,7 @@ tobiasschmidt.me is the personal website of {{ author.name }}. Following you wil
 
 {{ author.name }}
 {{ author.address.streetAddress }}
-{{ author.address.postalCode }} {{ author.address.addressLocality }}
-
+{{ author.address.postalCode }} {{ author.address.addressLocality }}<br>
 [{{ author.telephone }}][Phone]
 [{{ author.email }}][Email] ([PGP])
 
