@@ -35,8 +35,9 @@ I know some of these topics are not good for productivity. But keeping employees
 
 ---
 
-So what do I do now after realising this? My first step is to work part time. I am very grateful that my current employer [Plan.Net](https://www.plan-net.com/en.html) offers me the option to work part time. This allows me to have a fixed set of days each week where I have typical digital project work. On the rest of the week I can work the way I want, following the seasons. E.g. I can spend more time with the family during summer and do some side project work on the winter. A perfect balance of safety and variety. I am positive that I can extend this mode of work for a very long time.
+So what do I do now after realising this? My first step is to work part time. I am very grateful that my current employer [Plan.Net] offers me the option to work part time. This allows me to have a fixed set of days each week where I have typical digital project work. On the rest of the week I can work the way I want, following the seasons. E.g. I can spend more time with the family during summer and do some side project work on the winter. A perfect balance of safety and variety. I am positive that I can extend this mode of work for a very long time.
 
 _What do you think about introducing seasonality into digital work? Please [let me know](mailto:{{ author.email }}) about your ideas on how this could be realised._
 
 {% include "abbr.njk" %}
+{% include "links.njk" %}

@@ -23,7 +23,7 @@ In case you like the content on this page I offer following ways for you to subs
 
 ## What is a Feed?
 
-[RSS](https://en.wikipedia.org/wiki/RSS) ([Atom](<https://en.wikipedia.org/wiki/Atom_(Web_standard)>)) and [JSON Feed](https://www.jsonfeed.org/) are technologies to get updates from websites without visiting the site itself. They are used to receive latest news from a news site, or blog posts from a blog. The updates are listed in a “feed” which can be syndicated (synced) from the website to a “feed reader”.
+[RSS] ([Atom]) and [JSON] are technologies to get updates from websites without visiting the site itself. They are used to receive latest news from a news site, or blog posts from a blog. The updates are listed in a “feed” which can be syndicated (synced) from the website to a “feed reader”.
 
 A feed usually contains a list of posts each with their date, title, author and content. Sometimes the content is just an excerpt, encouraging you to read the rest of the content on the original site. An excerpt can defeat the point of providing a feed, where a big benefit is that the reader can customise how the posts display in their feed reader to improve their reading experience.
 
@@ -49,3 +49,6 @@ A feed reader is a service or app that collects feeds you’ve subscribed to, an
 _Contents of this site are based on [Laura Kalbag's subscribe page](https://laurakalbag.com/subscribe/) [(license)](https://creativecommons.org/licenses/by-sa/4.0/)._
 
 </footer>
+
+{% include "abbr.njk" %}
+{% include "links.njk" %}

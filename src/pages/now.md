@@ -23,16 +23,19 @@ tags: now
 
 🎧 Listening to "Das Wunder der Wertschätzung" and "The Wheel of Time" audiobooks.
 
-🎶 Practicing my new [Collin Goldie](https://www.colingoldie.de/) [Low C, Low D, and Low F Irish Tin Whistles](/tunes/). Collin Goldie is basically the Stradivari of Low Tin Whistles and I finally received my instruments after a long (we are talking years) wait. I will need some time to get used to it as it offers much more dynamic range compared to my old Chieftain Tin Whistle.
+🎶 Practicing my new [Collin Goldie] [Low C, Low D, and Low F Irish Tin Whistles](/tunes/). Collin Goldie is basically the Stradivari of Low Tin Whistles and I finally received my instruments after a long (we are talking years) wait. I will need some time to get used to it as it offers much more dynamic range compared to my old Chieftain Tin Whistle.
 
 🐉 Playing Dungeons & Dragons 5e both as a player (a Halfling Calligrapher Warlock called Nim Inkwell 🧙🏻) and dungeon master online (in a custom campaign that plays in the beautiful and peaceful region of Sí Bheg, Sí Mhor when suddenly a dark ancient cult arises).
 
-🏥 Doing regular Qi Gong 🥋, core strength training 💪, zazen 🧘‍ and reading books on philosophy 🤔 help to keep my physical and mental health up.
+🏥 Doing regular qi gong 🥋, core strength training 💪, zazen 🧘‍ and reading books on philosophy 🤔 help to keep my physical and mental health up.
 
 <footer>
 
-Check out [nownownow](https://nownownow.com/) to learn about the origin of the "/now" page.
+Check out [nownownow] to learn about the origin of the "/now" page.
 
 _Updated {% datetime date %}_
 
 </footer>
+
+{% include "abbr.njk" %}
+{% include "links.njk" %}

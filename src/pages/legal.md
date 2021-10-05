@@ -24,8 +24,8 @@ tobiasschmidt.me is the personal website of {{ author.name }}. Following you wil
 {{ author.address.streetAddress }}
 {{ author.address.postalCode }} {{ author.address.addressLocality }}
 
-[{{ author.telephone }}](tel:{{ author.telephone | replace(" ", "") }})
-[{{ author.email }}](mailto:{{ author.email }}) ([PGP](/tobiasschmidt.pgp))
+[{{ author.telephone }}][Phone]
+[{{ author.email }}][Email] ([PGP])
 
 </address>
 
@@ -52,4 +52,7 @@ Contents and compilations published on these websites by the providers are subje
 
 Copyright laws of third parties are respected as long as the contents on these websites do not originate from the provider. Contributions of third parties on this site are indicated as such. However, if you notice any violations of copyright law, please inform us. Such contents will be removed immediately.
 
-Code examples on this page are published under [MIT](https://oss.ninja/mit) license.
+Code examples on this page are published under [MIT] license.
+
+{% include "abbr.njk" %}
+{% include "links.njk" %}

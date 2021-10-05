@@ -34,3 +34,6 @@ If you are interested in how this blog is created you can check out my [about pa
 
 KR
 _Tobias_
+
+{% include "abbr.njk" %}
+{% include "links.njk" %}

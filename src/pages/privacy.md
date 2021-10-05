@@ -59,9 +59,8 @@ The data processing controller on this website is:
 {{ author.address.streetAddress }}
 {{ author.address.postalCode }} {{ author.address.addressLocality }}
 
-[{{ author.telephone }}](tel:{{ author.telephone | replace(" ", "") }})
-
-[{{ author.email }}](mailto:{{ author.email }}) ([PGP](/tobiasschmidt.pgp))
+[{{ author.telephone }}][Phone]
+[{{ author.email }}][Email] ([PGP])
 
 </address>
 
@@ -83,7 +82,7 @@ In the event of violations of the GDPR, data subjects are entitled to log a comp
 
 ### Right to data portability
 
-You have the right to demand that we hand over any data we automatically process on the basis of your consent or in order to fulfill a contract be handed over to you or a third party in a commonly used, machine readable format. If you should demand the direct transfer of the data to another controller, this will be done only if it is technically feasible.
+You have the right to demand that we hand over any data we automatically process on the basis of your consent or in order to fulfil a contract be handed over to you or a third party in a commonly used, machine readable format. If you should demand the direct transfer of the data to another controller, this will be done only if it is technically feasible.
 
 ### Information about, blockage, rectification and eradication of data
 
@@ -141,8 +140,11 @@ The processing of these data is based on Art. 6 para. 1 lit. b GDPR, if your req
 
 The data sent by you to us via contact requests remain with us until you request us to delete, revoke your consent to the storage or the purpose for the data storage lapses (e.g. after completion of your request). Mandatory statutory provisions - in particular statutory retention periods - remain unaffected.
 
-In case you want to send emails or files that include personal or important data it is recommended to encrypt them with Tobias Schmidt's public [PGP key](/tobiasschmidt.pgp).
+In case you want to send emails or files that include personal or important data it is recommended to encrypt them with Tobias Schmidt's public [PGP key][PGP].
 
 ## Plug-ins and Tools
 
 N/A
+
+{% include "abbr.njk" %}
+{% include "links.njk" %}

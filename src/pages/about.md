@@ -44,28 +44,29 @@ I use the open source font [Inter](https://rsms.me/inter/) that provides a taste
 
 ## Coding
 
-This site is created with the static site generator [Lume](https://https://lumeland.github.io/). No frameworks are used to create this site, everything is built in simple templating languages that are compiled to pure HTML, CSS and JS. Assets, CSS and JS are directly processed via Lume so that I am able to have simple DX features like splitting CSS components in multiple files. I implemented additional extensions that allow me to write blog posts with rich typography in Markdown.
+This site is created with the static site generator [Lume]. No frameworks are used to create this site, everything is built in simple templating languages that are compiled to pure HTML, CSS and JS. Assets, CSS and JS are directly processed via Lume so that I am able to have simple DX features like splitting CSS components in multiple files. I implemented additional extensions that allow me to write blog posts with rich typography in Markdown.
 
 The website uses a HTML-first approach that optimises semantics where possible. The sites works just fine with deactivated CSS and/or JavaScript. If things are not available as an HTML element I plan to use web components to create custom elements that resolve the task.
 
 I avoided usage of any CSS classes for styling (except for some special cases that are not in my control). Using semantic selectors (e.g. `a[rel="home"]` vs. `a.home`) is a nice way to stay content first as every design consideration is somehow reflected in the content. I imagine this was the early intention of CSS until we started to build more and more complex layouts. Anyway this restriction forced me to stay very streamlined on the features of the site. And _I guess I am a purist._
 
-The website offers optimised [Schema](https://schema.org/) metadata for site, page, article and author information. I furthermore included [Open Graph](https://ogp.me/) and [Twitter Card](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards) meta tags that provide optimised previews when links of this site are shared in social networks. I still need to find a way to create automatic images for my blog posts as I do not have a suitable image all the time. _(PS: I am a `<meta>` tag nerd---let me know if I forgot some.)_
+The website offers optimised [Schema] metadata for site, page, article and author information. I furthermore included [Open Graph] and [Twitter Card] meta tags that provide optimised previews when links of this site are shared in social networks. I still need to find a way to create automatic images for my blog posts as I do not have a suitable image all the time. _(PS: I am a `<meta>` tag nerd---let me know if I forgot some.)_
 
-Content images are lazy loaded with the native `loading="lazy"` feature of browsers to reduce initial payload of all sites. I do provide width and height of images where possible to avoid layout shifts when the images are loaded. This plus many optimisations allows to reach awesome load performance. I hope lume will get an image plug-in to further optimise images with multiple image sizes for different screens in the future.
+Content images are lazy loaded with the native `loading="lazy"` feature of browsers to reduce initial payload of all sites. I do provide width and height of images where possible to avoid layout shifts when the images are loaded. This plus many optimisations allows to reach awesome load performance. I hope Lume will get an image plug-in to further optimise images with multiple image sizes for different screens in the future.
 
 </section><section>
 
 ## Hosting
 
-This site is hosted on a [Hetzner](https://www.hetzner.de/) server. The connection is encrypted with a TLS certificate. I created a [custom server configuration](/server/) that optimises sever performance by using [good caching defaults](https://web.dev/love-your-cache/) and file compression. Additionally I configured the server to instruct browsers to send as few personal information as possible.
+This site is hosted on a [Hetzner] server. The connection is encrypted with a TLS certificate. I created a [custom server configuration](/server/) that optimises sever performance by using [good caching defaults](https://web.dev/love-your-cache/) and file compression. Additionally I configured the server to instruct browsers to send as few personal information as possible.
 
 </section>
 
 <footer>
 
-_Please [let me know](mailto:{{ author.email }}) in case you have any questions about how I create this site and I will try to give you more details._
+_Please [let me know][Email] in case you have any questions about how I create this site and I will try to give you more details._
 
 </footer>
 
 {% include "abbr.njk" %}
+{% include "links.njk" %}

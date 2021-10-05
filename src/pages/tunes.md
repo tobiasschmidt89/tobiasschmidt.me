@@ -14,7 +14,7 @@ tags: collection
 
 </header>
 
-I play the Irish tin whistle---mostly a [Collin Goldie](https://www.colingoldie.de/) Low D whistle, but I also use Collin Goldie Low C, Low F, [Kerry Whistles](https://kerrywhistles.com) Chieftain V5 Low D and and some cheap retailer High D whistles. Here I am keeping track of all the tunes I know. Each tune is linked to The Session---a global community of meetups to play and train traditional folk music with other musicians.
+I play the Irish tin whistle---mostly a [Collin Goldie] Low D whistle, but I also use Collin Goldie Low C, Low F, [Kerry Whistles] Chieftain V5 Low D and and some cheap retailer High D whistles. Here I am keeping track of all the tunes I know. Each tune is linked to The Session---a global community of meetups to play and train traditional folk music with other musicians.
 
 ## Jigs
 
@@ -72,3 +72,6 @@ I play the Irish tin whistle---mostly a [Collin Goldie](https://www.colingoldie.
 -   Tam Lin
 -   Ashokan Farewell
 -   The Old Church of Kilronan
+
+{% include "abbr.njk" %}
+{% include "links.njk" %}

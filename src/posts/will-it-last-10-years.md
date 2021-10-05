@@ -32,3 +32,4 @@ So for this blog I will try to focus on exactly this---making a site that lasts.
 _What do you think about taking a boring and minimalist approach to websites? What are your tactics to make a website that might last 10 or even 30 years? I would be happy to [hear about your thoughts](mailto:{{ author.email }})._
 
 {% include "abbr.njk" %}
+{% include "links.njk" %}
