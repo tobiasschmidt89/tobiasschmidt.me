@@ -18,7 +18,7 @@ const imageLazyLoading = [
         Array.from(images).forEach((img) => {
             img.setAttribute('loading', 'lazy')
 
-            // Need to find another way to autogenerate img width and height
+            // Need to find another way to autogenerate img width and height as this is not supported in Deno :/
             // image.setAttribute('width', image.naturalWidth)
             // image.setAttribute('height', image.naturalHeight)
         })

@@ -11,36 +11,38 @@ import preprocess from './_preprocess.js'
 import process from './_process.js'
 import helper from './_helper.js'
 
-const site = lume(
+const site = JSON.parse(Deno.readTextFileSync('./src/_data/site.json'));
+
+const generator = lume(
     {
-        location: new URL('/', 'https://tobiasschmidt.me/'),
+        location: new URL('/', site.url),
         src: './src',
     },
     { markdown }
 )
 
-site.use(date())
+generator.use(date())
     .use(svgo())
     .use(inline())
     .use(postcss())
     .use(slugifyUrls())
     .use(codeHighlight())
 
-site.copy('assets/fonts')
+generator.copy('assets/fonts')
     .copy('assets/img')
     .copy('assets/js')
     .copy('tobiasschmidt.pgp')
 
 for (let p of preprocess) {
-    site.preprocess(p[0], p[1])
+    generator.preprocess(p[0], p[1])
 }
 
 for (let p of process) {
-    site.process(p[0], p[1])
+    generator.process(p[0], p[1])
 }
 
 for (let h of helper) {
-    site.helper(h[0], h[1], h[2])
+    generator.helper(h[0], h[1], h[2])
 }
 
-export default site
+export default generator
