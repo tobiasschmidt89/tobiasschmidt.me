@@ -4,6 +4,10 @@ main nav > ol {
     gap: var(--gutter);
 }
 
+main nav h2 + ol {
+    margin-top: var(--gap);
+}
+
 main nav a {
     display: flex;
     flex-wrap: nowrap;
