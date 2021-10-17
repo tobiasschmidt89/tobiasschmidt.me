@@ -1,10 +1,14 @@
 a {
-    color: var(--link);
+    color: var(--link-on-canvas);
 }
 
 main a {
     text-decoration: underline;
-    text-decoration-color: var(--decoration);
+    text-decoration-color: var(--decoration-on-canvas);
+}
+
+nav a {
+    text-decoration: none;
 }
 
 a:hover {

@@ -1,4 +1,4 @@
-main nav > ol {
+/* main nav > ol {
     display: flex;
     flex-direction: column-reverse;
     gap: var(--gutter);
@@ -37,4 +37,4 @@ main nav a::after {
 main nav a :last-child {
     flex: 0 1 auto;
     order: 3;
-}
+} */

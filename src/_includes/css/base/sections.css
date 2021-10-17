@@ -1,9 +1,13 @@
-header + *,
-* + section,
-* + footer {
+main header + *,
+main * + section,
+main * + footer {
     margin-top: var(--gutter);
 }
 
 header * + * {
     margin-top: 0;
+}
+
+header * {
+    font-weight: bold;
 }

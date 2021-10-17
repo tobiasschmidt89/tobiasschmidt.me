@@ -29,9 +29,9 @@ tags:
         <ol>
             {% for post in posts %}
             <li>
-              <a href="{{ post.data.url }}" {% if url == post.data.url %} aria-current="page"{% endif %}>
-                  <span>{{ post.data.title }}</span>
-                  <time datetime="{{ post.data.date | date("DATETIME") }}">{{ post.data.date | date("d.M.") }}</time>
+                <a href="{{ post.data.url }}" {% if url == post.data.url %} aria-current="page"{% endif %}>
+                    <span>{{ post.data.title }}</span>
+                    <time datetime="{{ post.data.date | date("DATETIME") }}">{{ post.data.date | date("d.M.") }}</time>
                 </a>
             </li>
             {% endfor %}

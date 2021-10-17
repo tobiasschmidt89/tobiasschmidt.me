@@ -1,19 +1,11 @@
 body > nav {
-    margin-top: var(--gutter);
-    padding-top: var(--gutter);
-    border-top: var(--border);
-
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10ch, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(11ch, 1fr));
     gap: var(--gutter);
 }
 
 body > nav div * {
     display: block;
-}
-
-body > nav a {
-    text-decoration: none;
 }
 
 body > nav * {

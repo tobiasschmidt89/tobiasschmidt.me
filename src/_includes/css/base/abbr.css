@@ -11,7 +11,7 @@
 @media screen and (hover: hover) {
     abbr[title] {
         text-decoration: underline dotted;
-        text-decoration-color: var(--decoration);
+        text-decoration-color: var(--decoration-on-canvas);
         cursor: help;
     }
 }

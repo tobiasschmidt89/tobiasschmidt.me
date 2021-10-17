@@ -13,7 +13,3 @@ body > header[aria-hidden='false'] {
 body > header[aria-hidden='false']:focus-within {
     all: unset;
 }
-
-body > header[aria-hidden='false']:not(:focus-within) + * {
-    margin-top: 0;
-}

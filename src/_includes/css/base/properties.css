@@ -20,20 +20,22 @@
 
     --bold: 700;
 
-    --text: rgb(0 0 0 / 0.95);
-    --link: rgb(0 0 0 / 0.7);
-    --decoration: rgb(120 120 120 / 0.2);
-    --surface: rgb(250 250 250);
+    --hue: 200;
 
-    --border: 1px solid var(--decoration);
+    --canvas: hsl(var(--hue) 2% 97%);
+    --text-on-canvas: hsl(var(--hue) 10% 10%);
+    --link-on-canvas: hsl(var(--hue) 20% 35%);
+    --decoration-on-canvas: hsl(var(--hue) 10% 90%);
+
+    --border: 1px solid var(--decoration-on-canvas);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --text: rgb(255 255 255 / 0.95);
-        --link: rgb(255 255 255 / 0.7);
-        --decoration: rgb(120 120 120 / 0.2);
-        --surface: rgb(20 20 20);
+        --canvas: hsl(var(--hue) 2% 5%);
+        --text-on-canvas: hsl(var(--hue) 4% 95%);
+        --link-on-canvas: hsl(var(--hue) 6% 70%);
+        --decoration-on-canvas: hsl(var(--hue) 2% 12%);
     }
 }
 

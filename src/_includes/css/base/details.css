@@ -3,6 +3,19 @@ details {
     padding-bottom: var(--gap);
     border-top: var(--border);
     border-bottom: var(--border);
+
+}
+
+details ::marker {
+    content: '▷ ';
+    color: var(--decoration-on-canvas);
+    padding-left: calc(var(--gap) / 2);
+    margin-left: calc(var(--gap) * -0.5);
+    font-size: 90%;
+}
+
+details[open] ::marker {
+    content: '▽ ';
 }
 
 details + details {
@@ -12,4 +25,5 @@ details + details {
 
 details summary {
     cursor: pointer;
+    list-style-position: outside;
 }
