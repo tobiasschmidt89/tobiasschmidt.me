@@ -11,7 +11,7 @@ pre {
 
     padding: var(--gap);
     border: var(--border);
-    max-width: calc(100% + 2 * var(--gap));
+    max-width: calc(100% + 2 * 0.75 var(--gap));
     overflow-x: auto;
 }
 

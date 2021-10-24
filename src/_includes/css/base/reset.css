@@ -7,7 +7,7 @@
     padding: 0;
     border: 0;
 
-    font-size: 1rem;
+    font-size: inherit;
     font-weight: inherit;
     font-style: inherit;
     font-family: inherit;
@@ -59,8 +59,6 @@ body > :not([aria-hidden="false"]) + * {
     border-top: var(--border);
     padding-top: var(--gutter);
 }
-
-
 
 @media (prefers-reduced-motion: reduce) {
     * {

@@ -9,7 +9,7 @@
 
     --gap: var(--md);
     --gutter: var(--lg);
-    --frame: var(--lg) var(--md);
+    --frame: var(--lg) calc(0.75 * var(--md));
 
     --text-stack: Inter, system-sans, system-ui, sans-serif;
     --text-settings: 'kern' 1, 'liga' 1, 'case' 1, 'dlig' 1, 'ss03' 1;
@@ -21,7 +21,6 @@
     --bold: 700;
 
     --hue: 200;
-
     --canvas: hsl(var(--hue) 2% 97%);
     --text-on-canvas: hsl(var(--hue) 10% 10%);
     --link-on-canvas: hsl(var(--hue) 20% 35%);
@@ -35,17 +34,17 @@
         --canvas: hsl(var(--hue) 2% 5%);
         --text-on-canvas: hsl(var(--hue) 4% 95%);
         --link-on-canvas: hsl(var(--hue) 6% 70%);
-        --decoration-on-canvas: hsl(var(--hue) 2% 12%);
+        --decoration-on-canvas: hsl(var(--hue) 2% 15%);
     }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     :root {
         --frame: var(--lg);
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
     :root {
         --frame: var(--xl);
     }
