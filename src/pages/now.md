@@ -19,7 +19,7 @@ tags: now
 
 🤖 Working on CDP projects as a Senior Solution Consultant at Plan.Net.
 
-💻 My new blog (that you are currently on) is live 🥳, but it is never finished! I am working on writing some blog posts, fixing meta data and automating social graph images.
+💻 My new blog (that you are currently on) is live 🥳, but it is never finished! I am working on writing some blog posts and fixing metadata.
 
 🎧 Listening to "Das Wunder der Wertschätzung" and "The Wheel of Time" audiobooks.
 

@@ -22,7 +22,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-:not(img):not(picture)::selection {
+:not(img):not(picture):not(video)::selection {
     color: var(--canvas);
     background-color: var(--text-on-canvas);
 }
@@ -37,27 +37,6 @@
     color: var(--text-on-canvas);
     background: var(--canvas);
     hanging-punctuation: first;
-}
-
-body {
-    margin: auto;
-    max-width: calc(var(--text-measure) + 2 * var(--frame));
-    min-height: 100vh;
-    padding: var(--frame);
-}
-
-* + * {
-    margin-top: var(--gap);
-}
-
-[aria-hidden="false"] + * {
-    margin-top: 0
-}
-
-body > :not([aria-hidden="false"]) + * {
-    margin-top: var(--gutter);
-    border-top: var(--border);
-    padding-top: var(--gutter);
 }
 
 @media (prefers-reduced-motion: reduce) {

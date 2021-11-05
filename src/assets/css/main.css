@@ -1,7 +1,8 @@
-@import 'css/base/fonts.css';
-@import 'css/base/properties.css';
+@import 'css/fonts.css';
+@import 'css/properties.css';
+
 @import 'css/base/reset.css';
-@import 'css/base/sections.css';
+@import 'css/base/layout.css';
 @import 'css/base/headings.css';
 @import 'css/base/lists.css';
 @import 'css/base/quotes.css';
@@ -15,6 +16,9 @@
 @import 'css/base/figure.css';
 @import 'css/base/images.css';
 @import 'css/base/table.css';
+
 @import 'css/components/page-header.css';
 @import 'css/components/page-navigation.css';
 @import 'css/components/page-footer.css';
+@import 'css/components/post-navigation.css';
+@import 'css/components/post-list.css';

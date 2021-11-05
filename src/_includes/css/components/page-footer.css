@@ -1,5 +1,1 @@
-body > footer {
-    margin-top: var(--gutter);
-    padding-top: var(--gutter);
-    border-top: var(--border);
-}
+body > footer {}

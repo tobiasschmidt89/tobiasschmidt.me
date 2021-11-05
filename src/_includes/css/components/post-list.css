@@ -1,0 +1,7 @@
+.post-list h2 {
+    font-weight: normal;
+}
+
+.post-list h2 + * {
+    margin-top: var(--gap);
+}

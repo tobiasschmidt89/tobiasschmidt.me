@@ -15,8 +15,6 @@ tags: profile
 
 </header>
 
-I am a hands-on digitalisation expert in Munich. I help companies deliver reliable, personalised and profitable digital experiences to their customers.
-
 <figure>
 
 ![Image of me](/assets/img/tobias-schmidt.jpeg)
@@ -28,6 +26,8 @@ _It's me._
 </figcaption>
 
 </figure>
+
+I am a hands-on digitalisation expert in Munich. I help companies deliver reliable, personalised and profitable digital experiences to their customers.
 
 <section>
 

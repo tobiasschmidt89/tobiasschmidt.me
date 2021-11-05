@@ -8,35 +8,8 @@ tags:
     - list
 ---
 
-<header>
-    <h1><a href="/" rel="home">{{ title }}</a></h1>
-    <p>{{ subtitle }}</p>
-</header>
+{% set post = search.pages("post", "date=desc") | first %}
 
-<p>
-    I am a hands-on digitalisation expert in Munich.
-    Currently I work at <a href="https://www.plan-net.com/en.html" target="_blank">Plan.Net</a> to help companies deliver reliable, personalised and profitable digital experiences to their customers.
-    On this blog I am primarly sharing thougths on digitalisation and the web.
-</p>
-
-<hr>
-
-<nav>
-    <ol reversed>
-    {% for year, posts in search.pages("post", "date=desc") | groupby("data.year") %}
-    <li>
-        <h2>{{ year }}</h2>
-        <ol>
-            {% for post in posts %}
-            <li>
-                <a href="{{ post.data.url }}" {% if url == post.data.url %} aria-current="page"{% endif %}>
-                    <span>{{ post.data.title }}</span>
-                    <time datetime="{{ post.data.date | date("DATETIME") }}">{{ post.data.date | date("d.M.") }}</time>
-                </a>
-            </li>
-            {% endfor %}
-        </ol>
-    </li>
-    {% endfor %}
-    </ol>
-</nav>
+<article>
+{{ post.data.content | njk(post.data) | md | htmlUrl(true) | safe }}
+</article>

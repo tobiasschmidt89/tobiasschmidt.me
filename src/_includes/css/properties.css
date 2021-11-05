@@ -9,7 +9,9 @@
 
     --gap: var(--md);
     --gutter: var(--lg);
-    --frame: var(--lg) calc(0.75 * var(--md));
+    --frame: var(--lg) var(--md);
+
+    --cols: repeat(1, minmax(0, 1fr));
 
     --text-stack: Inter, system-sans, system-ui, sans-serif;
     --text-settings: 'kern' 1, 'liga' 1, 'case' 1, 'dlig' 1, 'ss03' 1;
@@ -46,6 +48,6 @@
 
 @media (min-width: 900px) {
     :root {
-        --frame: var(--xl);
+        --cols: repeat(2, minmax(0, 1fr));
     }
 }

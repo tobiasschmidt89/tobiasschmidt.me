@@ -21,14 +21,16 @@ const generator = lume(
     { markdown }
 )
 
-generator.use(date())
+generator
+    .use(date())
     .use(svgo())
     .use(inline())
     .use(postcss())
     .use(slugifyUrls())
     .use(codeHighlight())
 
-generator.copy('assets/fonts')
+generator
+    .copy('assets/fonts')
     .copy('assets/img')
     .copy('assets/js')
     .copy('tobiasschmidt.pgp')
