@@ -14,7 +14,7 @@ tags: subscribe
 
 </header>
 
-In case you like the content on this page I offer following ways for you to subscribe.
+In case you like the content on this website I offer following ways for you to subscribe.
 
 -   [Blog RSS Atom Feed](/feed.xml)
 -   [Blog JSON Feed](/feed.json)
