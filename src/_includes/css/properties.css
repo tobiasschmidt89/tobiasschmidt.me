@@ -20,7 +20,7 @@
     --text-height: 1.7;
     --text-spacing: -0.011em;
 
-    --bold: 700;
+    --bold: 600;
 
     --hue: 200;
     --canvas: hsl(var(--hue) 2% 97%);
