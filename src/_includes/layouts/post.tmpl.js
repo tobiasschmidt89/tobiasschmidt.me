@@ -12,8 +12,7 @@ import PostFooter from '../components/PostFooter/tmpl.js'
 
 export const layout = 'layouts/base.njk'
 
-export default (
-    {title, description, date, url, image, tags, site, time, author, content, search}) => {
+export default ({title, description, date, url, image, tags, site, time, author, content, search}) => {
 
     const prevPost = search.previousPage(url, "post", "date=desc")
     const nextPost = search.nextPage(url, "post", "date=desc")
@@ -30,7 +29,7 @@ export default (
     ${SchemaBlogPostingHead({title, description, url: absoluteUrl, date: dateTime, author, site})}
     </head>
 
-    ${Body({ site, author, time, content: `
+    ${Body({site, author, content: `
         ${Article({content:`
             ${PostHeader({title, date})}
             ${Prose({content})}

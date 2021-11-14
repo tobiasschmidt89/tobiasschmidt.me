@@ -7,8 +7,8 @@ import PostHeader from './_includes/components/PostHeader/tmpl.js'
 import Prose from './_includes/components/Prose/tmpl.js'
 import PostList from './_includes/components/PostList/tmpl.js'
 
-export const url = '/'
 export const layout = 'layouts/base.njk'
+export const url = '/'
 export const title = 'Tobias Schmidt'
 export const subtitle = 'Digitalisation Expert'
 export const description = `Tobias Schmidt's personal website.`
@@ -34,7 +34,7 @@ export default async (
     ${MetaHead({title, description, url, tags, author})}
     </head>
 
-    ${Body({site, author, time, content: `
+    ${Body({site, author, content: `
         ${Article({ content: `
             ${PostHeader({title: lastPostTitle, date: lastPostDate})}
             ${Prose({content: lastPostHtml})}
