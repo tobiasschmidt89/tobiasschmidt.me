@@ -6,15 +6,6 @@ description: What Im currently doing
 date: 2021-09-22
 tags: now
 ---
-
-<header>
-
-# [{{ title }}](/)
-
-{{ subtitle }}
-
-</header>
-
 👨‍👩‍👧 Learning to parent while parenting my lovely daughter.
 
 🤖 Working on CDP projects as a Senior Solution Consultant at Plan.Net.
@@ -31,9 +22,7 @@ tags: now
 
 <footer>
 
-Check out [nownownow] to learn about the origin of the "/now" page.
-
-_Updated {% datetime date %}_
+_Check out [nownownow] to learn about the origin of the "/now/" page. Updated {% DateTime { date: date } %}_
 
 </footer>
 

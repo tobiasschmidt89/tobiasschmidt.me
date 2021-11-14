@@ -1,7 +1,0 @@
-blockquote {
-    border-left: var(--border);
-    border-width: 0.3em;
-    padding-left: calc(var(--gap) * 0.4);
-    margin-left: calc(var(--gap) * -0.4 - 0.3em);
-    font-style: italic;
-}

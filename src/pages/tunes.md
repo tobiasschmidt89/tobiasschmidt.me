@@ -5,15 +5,6 @@ subtitle: Tin Whistle
 description: Tunes I play on my Tin Whistle.
 tags: collection
 ---
-
-<header>
-
-# [{{ title }}](/)
-
-{{ subtitle }}
-
-</header>
-
 I play the Irish tin whistle---mostly a [Collin Goldie] Low D whistle, but I also use Collin Goldie Low C, Low F, [Kerry Whistles] Chieftain V5 Low D and and some cheap retailer High D whistles. Here I am keeping track of all the tunes I know. Each tune is linked to The Session---a global community of meetups to play and train traditional folk music with other musicians.
 
 ## Jigs

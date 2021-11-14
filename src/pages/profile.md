@@ -6,15 +6,6 @@ description: Tobias Schmidt is a hands-on digitalisation expert in Munich. He he
 date: 2021-09-16
 tags: profile
 ---
-
-<header>
-
-# [About](/)
-
-{{ author.name }}
-
-</header>
-
 <figure>
 
 ![Image of me](/assets/img/tobias-schmidt.jpeg)

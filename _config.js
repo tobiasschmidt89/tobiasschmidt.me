@@ -1,15 +1,16 @@
-import lume from 'lume/mod.ts'
-import date from 'lume/plugins/date.ts'
-import svgo from 'lume/plugins/svgo.ts'
-import inline from 'lume/plugins/inline.ts'
-import postcss from 'lume/plugins/postcss.ts'
-import slugifyUrls from 'lume/plugins/slugify_urls.ts'
-import codeHighlight from 'lume/plugins/code_highlight.ts'
+import lume from "https://deno.land/x/lume@v1.2.1/mod.ts"
+import date from 'https://deno.land/x/lume@v1.2.1/plugins/date.ts'
+import svgo from 'https://deno.land/x/lume@v1.2.1/plugins/svgo.ts'
+import inline from 'https://deno.land/x/lume@v1.2.1/plugins/inline.ts'
+import postcss from 'https://deno.land/x/lume@v1.2.1/plugins/postcss.ts'
+import slugifyUrls from 'https://deno.land/x/lume@v1.2.1/plugins/slugify_urls.ts'
+import codeHighlight from 'https://deno.land/x/lume@v1.2.1/plugins/code_highlight.ts'
 
 import markdown from './_markdown.js'
 import preprocess from './_preprocess.js'
 import process from './_process.js'
 import helper from './_helper.js'
+import components from './_components.js'
 
 const site = JSON.parse(Deno.readTextFileSync('./src/_data/site.json'));
 
@@ -45,6 +46,10 @@ for (let p of process) {
 
 for (let h of helper) {
     generator.helper(h[0], h[1], h[2])
+}
+
+for (let c of components) {
+    generator.helper(c[0], c[1], c[2])
 }
 
 export default generator

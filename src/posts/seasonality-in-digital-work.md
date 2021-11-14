@@ -3,15 +3,6 @@ title: Seasonality in digital work
 description: Thoughts on the ways to add seasonality to digital work.
 date: 2021-10-05
 ---
-
-<header>
-
-# [{{ title }}](/)
-
-{% datetime date %}
-
-</header>
-
 During my summer vacation I had a nice chat with our landlord. He works as a golf trainer during summer season and a painter during winter season. Painting helps him to recover from the draining physical work as a trainer.
 
 This got me thinking. Didn't we always have some kind of seasonality in our work? I expect physical jobs like farmers, hunters, or woodcutters follow the yearly seasons. I imagine that in the past our life and work was fundamentally different during each season. I like the thought of a "harvest season". Each year you reap the results of your work, have a huge harvest party, then move on to something different. You know that the current work season will end at date x, no matter how challenging it is at the moment. Also it allows to have different modes of mental and physical strain.

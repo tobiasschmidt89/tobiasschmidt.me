@@ -2,19 +2,11 @@
 url: /privacy/
 title: Privacy Notice
 description: Privacy Notice of the website.
+subtitle: How this site handles data.
 keywords: tobias, schmidt, tobias schmidt, munich, tech consultant, project engineer, web developer, privacy notice
 date: 2021-09-16
 tags: legal
 ---
-
-<header>
-
-# [{{ title }}](/)
-
-{% datetime date %}
-
-</header>
-
 ## An overview of data protection
 
 ### General information
@@ -144,6 +136,12 @@ In case you want to send emails or files that include personal or important data
 ## Plug-ins and Tools
 
 N/A
+
+<footer>
+
+_Updated {% DateTime { date: date } %}_
+
+</footer>
 
 {% include "abbr.njk" %}
 {% include "links.njk" %}

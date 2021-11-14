@@ -7,15 +7,6 @@ tags:
     - page
     - about
 ---
-
-<header>
-
-# [{{ title }}](/)
-
-{{ subtitle }}
-
-</header>
-
 tobiasschmidt.me is my personal website. I use it to share personal thoughts, document what I learned, plant some digital seeds, and host some unique content I want to share for particular reasons. Even so I tend to write about my profession I try to keep the tone personal on this site.
 
 One of the most crucial elements of the success of the web was its open nature. If you want to know how a website is built you can pretty much inspect all source code with a simple `rightclick > view source` in a readable way. Furthermore many web participants share their experience and knowledge of the web to inspire others. Therefore I am happy to be part of this open web with my small blog.

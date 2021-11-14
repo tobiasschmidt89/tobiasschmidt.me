@@ -8,19 +8,6 @@ const x = [
     { type: 'filter' }
 ]
 
-// Used to render <time> html element
-const datetime = [
-    'datetime',
-    (date) => {
-        const humanDate = new Intl.DateTimeFormat('de-DE').format(date)
-        return `<time datetime="${date}">${humanDate}</time>`
-    },
-    { type: 'tag' }
-]
-
-
-
 export default [
-    x,
-    datetime
+    x
 ]

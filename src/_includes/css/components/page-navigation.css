@@ -1,9 +1,0 @@
-body > nav {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(11ch, 1fr));
-    gap: var(--gutter);
-}
-
-body > nav div * {
-    display: block;
-}

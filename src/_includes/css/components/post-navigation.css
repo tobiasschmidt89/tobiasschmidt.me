@@ -1,9 +1,0 @@
-.post-navigation {
-    display: grid;
-    grid-template-columns: var(--cols);
-    gap: var(--gap) var(--gutter);
-}
-
-.post-navigation h2 {
-    font-weight: normal;
-}

@@ -3,15 +3,6 @@ title: Hello World
 description: Launch post for my new blog.
 date: 2021-09-17
 ---
-
-<header>
-
-# [{{ title }}](/)
-
-{% datetime date %}
-
-</header>
-
 _Following the tradition of development tutorials I am today launching 🎉 my new blog with a hello world post. Its not perfect, its not finished, and it will have issues, but its live!_
 
 **Hi and thanks for checking by 👋 !**

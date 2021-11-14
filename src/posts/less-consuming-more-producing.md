@@ -3,15 +3,6 @@ title: Less consuming, more producing
 description: How to be more creative in a digital age where every content is only one click away.
 date: 2021-11-05
 ---
-
-<header>
-
-# [{{ title }}](/)
-
-{% datetime date %}
-
-</header>
-
 Digitalisation makes it easy to consume content. Movies, podcasts, audiobooks, video games, magazines, newspaper articles, tutorials, social media updates are all one click (or tap, or swipe, or voice command, ...) away.
 
 The older I get the more I realise how the content I consume shapes me. This is both a boon and a curse. On the one hand I can educate myself about new topics and ideas during commute for personal and professional development---on the other hand I might read a hyperbolical news article at the breakfast table that might float around in my head for the rest of the day. All in all I feel that the amount of content I consume grows over time.

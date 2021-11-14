@@ -5,15 +5,6 @@ subtitle: Options to subscribe
 description: Options to subscribe to the content of this website.
 tags: subscribe
 ---
-
-<header>
-
-# [{{ title }}](/)
-
-{{ subtitle }}
-
-</header>
-
 In case you like the content on this website I offer following ways for you to subscribe.
 
 -   [Blog RSS Atom Feed](/feed.xml)

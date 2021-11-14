@@ -7,14 +7,6 @@ keywords: tobias, schmidt, tobias schmidt, munich, tech consultant, project engi
 date: 2021-09-16
 ---
 
-<header>
-
-# [{{ title }}](/)
-
-{{ subtitle }}
-
-</header>
-
 `.htaccess` configuration of my webserver. I provide this information for transparency and educational purposes.
 
 ```html
