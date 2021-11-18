@@ -1,4 +1,4 @@
-import DateTime from '../DateTime/tmpl.js'
+import DateTime from './DateTime.tmpl.js'
 
 export default ({title, date}) => `
 <header class="post-header">

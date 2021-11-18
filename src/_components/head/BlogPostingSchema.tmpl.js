@@ -1,5 +1,4 @@
-export default (
-    {title, description, url, image, date, author, site}) => {
+export default ({title, description, url, image, date, author, site}) => {
 
     const blogPosting = {
         '@context': "http://schema.org",

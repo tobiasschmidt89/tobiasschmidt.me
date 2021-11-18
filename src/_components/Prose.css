@@ -113,7 +113,7 @@
 }
 
 .prose ol ::marker {
-    content: counter(ordered-list) '\20DD  ';
+    content: counter(ordered-list) '\20dd  ';
 }
 
 .prose ul li,

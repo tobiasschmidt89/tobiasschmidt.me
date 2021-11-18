@@ -1,4 +1,4 @@
-import DateTime from './src/_includes/components/DateTime/tmpl.js'
+import DateTime from './src/_components/DateTime.tmpl.js'
 
 export default [
     ['DateTime', DateTime, { type: 'tag' }],

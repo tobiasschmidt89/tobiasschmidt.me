@@ -23,6 +23,5 @@ export default ({author}) => `
         <a href="/legal/">Imprint</a>
         <a href="/privacy/">Privacy</a>
     </div>
-
 </nav>
 `

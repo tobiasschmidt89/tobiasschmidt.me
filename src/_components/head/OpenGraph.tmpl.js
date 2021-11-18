@@ -6,5 +6,5 @@ export default ({title, description, url, site, image = ""}) => `
 <meta property="og:url" content="${url}" />
 <meta property="og:description" content="${description}" />
 <meta property="og:locale" content="${site?.x?.locale}">
-${ image && `<meta property="og:image" content="${image?.url}" />`}
+${image && `<meta property="og:image" content="${image?.url}" />`}
 `

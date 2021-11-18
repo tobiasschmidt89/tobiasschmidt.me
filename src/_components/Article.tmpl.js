@@ -1,4 +1,4 @@
-import PostHeader from '../PostHeader/tmpl.js'
+import PostHeader from './PostHeader.tmpl.js'
 
 export default ({content}) => `
 <article class="article">

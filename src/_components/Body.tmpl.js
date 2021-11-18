@@ -1,6 +1,6 @@
-import SiteHeader from '../SiteHeader/tmpl.js'
-import SiteNavigation from '../SiteNavigation/tmpl.js'
-import SiteFooter from '../SiteFooter/tmpl.js'
+import SiteHeader from './SiteHeader.tmpl.js'
+import SiteNavigation from './SiteNavigation.tmpl.js'
+import SiteFooter from './SiteFooter.tmpl.js'
 
 export default ({content, site, author}) => `
 <body>

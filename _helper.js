@@ -2,6 +2,7 @@
 const x = [
     'x',
     (data) => {
+        console.log('X')
         const { x, ...rest } = data
         return rest
     },
