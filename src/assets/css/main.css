@@ -2,15 +2,3 @@
 @import 'css/properties.css';
 @import 'css/reset.css';
 @import 'css/code.css';
-
-@import '../_components/Body.css';
-@import '../_components/SiteHeader.css';
-@import '../_components/SiteNavigation.css';
-@import '../_components/SiteFooter.css';
-
-@import '../_components/Article.css';
-@import '../_components/PostHeader.css';
-@import '../_components/PageHeader.css';
-@import '../_components/Prose.css';
-@import '../_components/PostFooter.css';
-@import '../_components/PostList.css';

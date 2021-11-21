@@ -25,3 +25,30 @@ export default ({author}) => `
     </div>
 </nav>
 `
+
+export const css = `
+.site-navigation {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--gutter);
+}
+
+@media screen and (min-width: 900px) {
+    .site-navigation {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+.site-navigation div * {
+    display: block;
+}
+
+.site-navigation a {
+    text-decoration: none;
+    color: var(--link-on-canvas);
+}
+
+.site-navigation a:hover {
+    color: unset;
+}
+`

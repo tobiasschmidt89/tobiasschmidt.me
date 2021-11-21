@@ -10,7 +10,8 @@ import markdown from './_markdown.js'
 import preprocess from './_preprocess.js'
 import process from './_process.js'
 import helper from './_helper.js'
-import components from './_components.js'
+import shortcodes from './_shortcodes.js'
+import components from './components/components.ts'
 
 const site = JSON.parse(Deno.readTextFileSync('./src/_data/site.json'));
 
@@ -29,6 +30,7 @@ generator
     .use(postcss())
     .use(slugifyUrls())
     .use(codeHighlight())
+    .use(components())
 
 generator
     .copy('assets/fonts')
@@ -48,8 +50,8 @@ for (let h of helper) {
     generator.helper(h[0], h[1], h[2])
 }
 
-for (let c of components) {
-    generator.helper(c[0], c[1], c[2])
+for (let s of shortcodes) {
+    generator.helper(s[0], s[1], s[2])
 }
 
 export default generator

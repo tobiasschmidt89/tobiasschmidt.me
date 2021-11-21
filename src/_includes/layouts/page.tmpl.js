@@ -1,19 +1,19 @@
-import Tech from '../../_components/head/Tech.tmpl.js'
-import Meta from '../../_components/head/Meta.tmpl.js'
-import OpenGraph from '../../_components/head/OpenGraph.tmpl.js'
-import Twitter from '../../_components/head/Twitter.tmpl.js'
-import WebPageSchema from '../../_components/head/WebPageSchema.tmpl.js'
-import AboutPageSchema from '../../_components/head/AboutPageSchema.tmpl.js'
-import ProfileSchema from '../../_components/head/ProfileSchema.tmpl.js'
-
-import Body from '../../_components/Body.tmpl.js'
-import Article from '../../_components/Article.tmpl.js'
-import PageHeader from '../../_components/PageHeader.tmpl.js'
-import Prose from '../../_components/Prose.tmpl.js'
-
 export const layout = 'layouts/base.njk'
 
-export default ({title, description, date, subtitle, url, tags, site, time, author, content, search}) => {
+export default ({title, description, date, subtitle, url, tags, site, time, author, content, search, comp}) => {
+
+    const Tech = comp.tech
+    const Meta = comp.meta
+    const OpenGraph = comp.openGraph
+    const Twitter = comp.twitter
+    const WebPageSchema = comp.webPageSchema
+    const AboutPageSchema = comp.aboutPageSchema
+    const ProfileSchema = comp.profileSchema
+
+    const Body = comp.body
+    const Article = comp.article
+    const PageHeader = comp.pageHeader
+    const Prose = comp.prose
 
     const isProfile = url.includes('/profile/') || ""
     const isAboutPage = url.includes('/about/') || ""

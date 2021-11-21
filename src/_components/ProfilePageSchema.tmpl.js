@@ -11,7 +11,7 @@ export default ({title, description, url, author}) => {
             "@type": "Person",
             "@id": author['@id'],
             name: author.name,
-            url: author['@id']"
+            url: author['@id']
         },
         mainEntity: {
             "@type": "Person",

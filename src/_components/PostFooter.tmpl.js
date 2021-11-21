@@ -14,3 +14,26 @@ export default ({prevPost = "", nextPost = ""}) => `
     `}
 </footer>
 `
+
+export const css = `
+.post-footer {
+    grid-column: 1 / -1;
+
+    display: grid;
+    grid-template-columns: var(--cols);
+    gap: var(--gutter);
+
+    border-top: var(--border);
+    padding-top: var(--gutter);
+}
+
+.post-footer h2 {
+    font-weight: normal;
+}
+
+.post-footer a {
+    color: var(--link-on-canvas);
+    text-decoration: none;
+}
+
+`

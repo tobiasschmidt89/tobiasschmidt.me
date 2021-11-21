@@ -1,13 +1,3 @@
-import Tech from './_components/head/Tech.tmpl.js'
-import Meta from './_components/head/Meta.tmpl.js'
-import WebsiteSchema from './_components/head/WebsiteSchema.tmpl.js'
-
-import Body from './_components/Body.tmpl.js'
-import Article from './_components/Article.tmpl.js'
-import PostHeader from './_components/PostHeader.tmpl.js'
-import Prose from './_components/Prose.tmpl.js'
-import PostList from './_components/PostList.tmpl.js'
-
 export const layout = 'layouts/base.njk'
 export const url = '/'
 export const title = 'Tobias Schmidt'
@@ -16,8 +6,18 @@ export const description = `Tobias Schmidt's personal website.`
 export const tags = ['index', 'list']
 
 export default async (
-    {site, time, author, content, search},
+    {site, time, author, content, search, comp},
     { njk, md, url, date, htmlUrl }) => {
+
+    const Tech = comp.tech
+    const Meta = comp.meta
+    const WebsiteSchema = comp.websiteSchema
+
+    const Body = comp.body
+    const Article = comp.article
+    const PostHeader = comp.postHeader
+    const Prose = comp.prose
+    const PostList = comp.postList
 
     const lastPost = search.pages("post", "date=desc").shift()
     const lastPostData = lastPost.data
