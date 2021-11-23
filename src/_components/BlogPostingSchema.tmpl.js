@@ -3,7 +3,7 @@ export default ({title, description, url, image, date, author, site}) => {
     const blogPosting = {
         '@context': "http://schema.org",
         '@type': "BlogPosting",
-        '@id': `${url}#blogposting`,
+        '@id': `${new URL(`${url}#blogposting`, site.url)}`,
         url: url,
         mainEntityOfPage: "True",
         headline: title,
@@ -22,7 +22,7 @@ export default ({title, description, url, image, date, author, site}) => {
             name: author.name,
             logo: {
                 '@type': "ImageObject",
-                url: `${site.url}assets/img/favicon.png`,
+                url: `${new URL('/assets/img/favicon.png', site.url)}`,
                 width: 192,
                 height: 192
             }
@@ -32,7 +32,7 @@ export default ({title, description, url, image, date, author, site}) => {
     if (image) {
         blogPosting.image = {
             '@type': "ImageObject",
-            url: image.url
+            url: `${new URL(image.url, site.url)}`
         }
     }
 

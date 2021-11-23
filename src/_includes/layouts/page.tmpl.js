@@ -24,8 +24,8 @@ export default ({title, description, date, subtitle, url, tags, site, time, auth
     ${Meta({title, description, url, tags, author})}
     ${OpenGraph({title, description, url, site})}
     ${Twitter({title, description, author})}
-    ${WebPageSchema({title, description, url, author})}
-    ${isAboutPage && AboutPageSchema({title, description, url, author})}
+    ${WebPageSchema({title, description, url, author, site})}
+    ${isAboutPage && AboutPageSchema({title, description, url, author, site})}
     ${isProfile && ProfileSchema({author})}
     </head>
 

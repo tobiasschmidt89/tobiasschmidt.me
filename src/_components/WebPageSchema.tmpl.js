@@ -1,9 +1,9 @@
-export default ({title, description, url, author}) => {
+export default ({title, description, url, author, site}) => {
 
     const webPage = {
         '@context': "http://schema.org",
         '@type': "WebPage",
-        '@id': `${url}#blogposting`,
+        '@id': `${new URL(`${url}#webpage`, site.url)}`,
         url: url,
         name: title,
         description: description,

@@ -3,7 +3,7 @@ export default ({title, description, url, author}) => {
     const profile = {
         "@context": "http://schema.org",
         "@type": "ProfilePage",
-        "@id": `${url}#profilepage`,
+        "@id": `${new URL(`${url}#profilepage`, site.url)}`,
         url: url,
         name: title,
         description: description,
