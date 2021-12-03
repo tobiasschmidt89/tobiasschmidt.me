@@ -41,8 +41,6 @@ I am interested in meeting new people, learning new things, and helping with int
 
 My website is open-source published on [GitHub](https://github.com/{{author.x.social.github}}/{{site.x.domain}}). You can find an overview of all modules I use across the website in my [Styleguide](/styleguide/). Check out my [Colophon](/about/) to learn how I created this site. In the [Privacy Policy](/privacy/), you will find information on how this website handles your data. The [Legal Notice](/legal/) includes other important information.
 
-My website is open source published on [GitHub](https://github.com/{{author.x.social.github}}/{{site.x.domain}}). You can find an overview of all modules I use across the website in the [Styleguide](/styleguide/). Check out my [Colophon](/about/) to learn how I created this site. In the [Privacy Policy](/privacy/) you will find information on how this website handles your personal data. The [Legal Notice](/legal/) includes other important information.
-
 </section>
 
 {% include "abbr.njk" %}
