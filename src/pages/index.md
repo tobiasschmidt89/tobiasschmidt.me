@@ -17,7 +17,7 @@ tags: index
 
 <section>
 
-I am a hands-on digitalisation expert in Munich. I help companies deliver reliable, personalised and profitable digital experiences to their customers. On my blog I am sharing thoughts on digitalisation and the web.
+Hi, I'm [Tobi](/profile/) a hands-on digitalisation expert in Munich. I help companies deliver reliable, personalised, and profitable digital experiences to their customers. On my blog, I am sharing thoughts on digitalisation and the web.
 
 </section><section>
 
@@ -33,12 +33,13 @@ I am a hands-on digitalisation expert in Munich. I help companies deliver reliab
 
 ## Connect
 
-I am always interested in meeting new people, learning new things and helping on interesting projects. I am happy to connect on [LinkedIn](https://www.linkedin.com/in/{{author.x.social.linkedin}}) and [Github](https://github.com/{{author.x.social.github}}). To stay in touch I am always happy to receive an [Email]. If you like the content I write on my blog you can consider to [subscribe](/subscribe/) to my feed.
-
+I am interested in meeting new people, learning new things, and helping with interesting projects. I am happy to connect on [LinkedIn](https://www.linkedin.com/in/{{author.x.social.linkedin}}) and [Github](https://github.com/{{author.x.social.github}}). To stay in touch I am looking forward to receiving an Email. If you like the content I write on my blog you can consider [subscribing](/subscribe/) to my feed.
 
 </section><section>
 
 ## Site
+
+My website is open-source published on [GitHub](https://github.com/{{author.x.social.github}}/{{site.x.domain}}). You can find an overview of all modules I use across the website in my [Styleguide](/styleguide/). Check out my [Colophon](/about/) to learn how I created this site. In the [Privacy Policy](/privacy/), you will find information on how this website handles your data. The [Legal Notice](/legal/) includes other important information.
 
 My website is open source published on [GitHub](https://github.com/{{author.x.social.github}}/{{site.x.domain}}). You can find an overview of all modules I use across the website in the [Styleguide](/styleguide/). Check out my [Colophon](/about/) to learn how I created this site. In the [Privacy Policy](/privacy/) you will find information on how this website handles your personal data. The [Legal Notice](/legal/) includes other important information.
 

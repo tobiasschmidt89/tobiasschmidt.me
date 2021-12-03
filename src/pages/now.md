@@ -15,6 +15,7 @@ tags: now
 
 </header><section>
 
+
 👨‍👩‍👧 Learning to parent while parenting my lovely daughter.
 
 🤖 Working on DMP & CDP projects as a Senior Solution Consultant at Plan.Net. Building a team.
@@ -25,7 +26,7 @@ tags: now
 
 🎶 Practicing [Cahir's Kitchen](https://thesession.org/tunes/1090) song on my low D [tin whistle](/tunes/).
 
-🐉 Playing Dungeons & Dragons 5e both as a Halfling Calligrapher Warlock called Nim Inkwell 🧙🏻 and a Tabaxi Barbarian called Ban K'nurr an Tauira 😸. I am also a Dungeon Master in a custom campaign that plays in the beautiful and peaceful region around Sí Bheg, Sí Mhor when suddenly a dark ancient cult arises. Currently I am playing online due to COVID restrictions.
+🐉 Playing Dungeons & Dragons 5e both as a Halfling Calligrapher Warlock called Nim Inkwell 🧙🏻 and a Tabaxi Barbarian called Ban K'nurr an Tauira 😸. I am also a Dungeon Master in a custom campaign that plays in the beautiful and peaceful region around Sí Bheg, Sí Mhor when suddenly a dark ancient cult arises. Currently, I am playing online due to COVID restrictions.
 
 💪 Testing the minimalist Calisthenics program by [Kyle Boggeman](https://www.kboges.com/).
 
