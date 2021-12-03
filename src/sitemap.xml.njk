@@ -3,7 +3,7 @@
 {%- for page in search.pages() %}
     <url>
         <loc>{{ page.data.url | url(true) }}</loc>
-        <lastmod>{{ page.src.lastModified | date("DATE") }}</lastmod>
+        <lastmod>{{ page.data.date | date("DATE") }}</lastmod>
     </url>
 {%- endfor %}
 </urlset>
