@@ -7,13 +7,7 @@ export default ({content}) => `
 export const css = `
 .article {
     display: grid;
-    grid-template-columns: var(--cols);
+    grid-template-columns: minmax(0, 1fr);
     gap: var(--gutter);
 }
-
-.article > * { grid-column: span 1 / -1; }
-
-.article > header { grid-column: 1 / span 1; }
-
-.article > footer { grid-column: 1 / -1; }
 `

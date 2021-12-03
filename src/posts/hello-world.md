@@ -3,6 +3,15 @@ title: Hello World
 description: Launch post for my new blog.
 date: 2021-09-17
 ---
+
+<header>
+
+# [{{title}}](/)
+
+{% DateTime {date:date} %}
+
+</header><section>
+
 _Following the tradition of development tutorials I am today launching 🎉 my new blog with a hello world post. Its not perfect, its not finished, and it will have issues, but its live!_
 
 **Hi and thanks for checking by 👋 !**
@@ -23,8 +32,12 @@ So today I join the IndieWeb 🥳! I will post all kind of different thoughts on
 
 If you are interested in how this blog is created you can check out my [about page](/about/). In case you would like to receive updates on new posts you can find subscription options on my [subscribe page](/subscribe/).
 
+</section><footer>
+
 KR
 _Tobias_
+
+<footer>
 
 {% include "abbr.njk" %}
 {% include "links.njk" %}

@@ -9,14 +9,19 @@
 
     --gap: var(--md);
     --gutter: var(--lg);
-    --frame: var(--lg) var(--md);
+
+    --frame:
+        max(env(safe-area-inset-top), var(--lg))
+        max(env(safe-area-inset-right), calc(0.75 * var(--md)))
+        max(env(safe-area-inset-bottom), var(--lg))
+        max(env(safe-area-inset-left), calc(0.75 * var(--md)));
 
     --cols: repeat(1, minmax(0, 1fr));
 
     --text-stack: Inter, system-sans, system-ui, sans-serif;
     --text-settings: 'kern' 1, 'liga' 1, 'case' 1, 'dlig' 1, 'ss03' 1;
-    --text-measure: 60ch;
-    --text-size: max(1em, 1.2vw);
+    --text-measure: 70ch;
+    --text-size: max(1em, 1.1vw);
     --text-height: 1.7;
     --text-spacing: -0.011em;
 
@@ -29,20 +34,36 @@
     --decoration-on-canvas: hsl(var(--hue) 10% 90%);
 
     --border: 1px solid var(--decoration-on-canvas);
+    --shadow:
+      0px 0.2px 0.9px rgba(0, 0, 0, 0.003),
+      0px 0.5px 2px rgba(0, 0, 0, 0.004),
+      0px 0.7px 3.5px rgba(0, 0, 0, 0.006),
+      0px 1.1px 5.3px rgba(0, 0, 0, 0.007),
+      0px 1.5px 7.8px rgba(0, 0, 0, 0.008),
+      0px 2.1px 11.4px rgba(0, 0, 0, 0.009),
+      0px 2.8px 16.8px rgba(0, 0, 0, 0.011),
+      0px 4px 25.6px rgba(0, 0, 0, 0.014),
+      0px 5.8px 41.3px rgba(0, 0, 0, 0.018),
+      0px 8px 73px rgba(0, 0, 0, 0.02);
+
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --canvas: hsl(var(--hue) 2% 5%);
-        --text-on-canvas: hsl(var(--hue) 4% 95%);
-        --link-on-canvas: hsl(var(--hue) 6% 70%);
+        --canvas: hsl(var(--hue) 2% 7%);
+        --text-on-canvas: hsl(var(--hue) 4% 88%);
+        --link-on-canvas: hsl(var(--hue) 6% 66%);
         --decoration-on-canvas: hsl(var(--hue) 2% 15%);
     }
 }
 
 @media (min-width: 600px) {
     :root {
-        --frame: var(--lg);
+        --frame:
+            max(env(safe-area-inset-top), var(--xxl))
+            max(env(safe-area-inset-right), var(--lg))
+            max(env(safe-area-inset-bottom), var(--xxl))
+            max(env(safe-area-inset-left), var(--lg));
     }
 }
 

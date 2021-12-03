@@ -3,6 +3,15 @@ title: Less consuming, more producing
 description: How to be more creative in a digital age where every content is only one click away.
 date: 2021-11-05
 ---
+
+<header>
+
+# [{{title}}](/)
+
+{% DateTime {date: date} %}
+
+</header><section>
+
 Digitalisation makes it easy to consume content. Movies, podcasts, audiobooks, video games, magazines, newspaper articles, tutorials, social media updates are all one click (or tap, or swipe, or voice command, ...) away.
 
 The older I get the more I realise how the content I consume shapes me. This is both a boon and a curse. On the one hand I can educate myself about new topics and ideas during commute for personal and professional development---on the other hand I might read a hyperbolical news article at the breakfast table that might float around in my head for the rest of the day. All in all I feel that the amount of content I consume grows over time.
@@ -24,7 +33,11 @@ So this is all quite theoretical. So I collected some practical ideas I am curre
 4. I started to write small songs for the [Tin Whistle](/tunes/). So instead of playing tunes from others I am actually learning how to express my ideas and feelings in a piece of music. I expect that I will not create something that I would feel confident to share in the near future, but it still has a lot of value to create music for my self.
 5. I started to do zazen meditation. Meditation is not about producing, but I feel that meditation allows to better reflect on myself.
 
+</section><footer>
+
 _How do you feel about content consumption in the digital age? What are your strategies to consume less and produce more? Please [let me know](mailto:{{ author.email }}) about your ideas._
+
+</footer>
 
 {% include "abbr.njk" %}
 {% include "links.njk" %}

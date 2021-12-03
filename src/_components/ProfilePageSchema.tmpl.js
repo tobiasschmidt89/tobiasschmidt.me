@@ -22,7 +22,7 @@ export default ({title, description, url, author}) => {
     }
 
     return `
-    <!-- Profile Schema -->
+    <!-- ProfilePage Schema -->
     <script type="application/ld+json" id="profile">
         ${JSON.stringify(profile)}
     </script>

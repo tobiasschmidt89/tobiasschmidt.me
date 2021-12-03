@@ -3,24 +3,33 @@ url: /now/
 title: Now
 subtitle: What I'm currently doing
 description: What Im currently doing
-date: 2021-09-22
+date: 2021-11-27
 tags: now
 ---
+
+<header>
+
+# [{{title}}](/)
+
+{{subtitle}}
+
+</header><section>
+
 👨‍👩‍👧 Learning to parent while parenting my lovely daughter.
 
-🤖 Working on CDP projects as a Senior Solution Consultant at Plan.Net.
+🤖 Working on DMP & CDP projects as a Senior Solution Consultant at Plan.Net. Building a team.
 
-💻 My new blog (that you are currently on) is live 🥳, but it is never finished! I am working on writing some blog posts and fixing metadata.
+💻 My new blog (that you are currently on) is live 🥳, but it is never finished! I am working on implementing a component system.
 
-🎧 Listening to "Das Wunder der Wertschätzung" and "The Wheel of Time" audiobooks.
+🖼 Trying out generative art after reading [this essay of Tyler Hobbs](https://tylerxhobbs.com/essays/2019/code-goes-in-art-comes-out). Maybe it will become a new hobby of mine---but I need to refresh my Geometry skills for it. At least it helps me to level up my JavaScript, SVG and Canvas skills.
 
-🎶 Practicing my new [Collin Goldie] [Low C, Low D, and Low F Irish Tin Whistles](/tunes/). Collin Goldie is basically the Stradivari of Low Tin Whistles and I finally received my instruments after a long (we are talking years) wait. I will need some time to get used to it as it offers much more dynamic range compared to my old Chieftain Tin Whistle.
+🎶 Practicing [Cahir's Kitchen](https://thesession.org/tunes/1090) song on my low D [tin whistle](/tunes/).
 
-🐉 Playing Dungeons & Dragons 5e both as a player (a Halfling Calligrapher Warlock called Nim Inkwell 🧙🏻) and dungeon master online (in a custom campaign that plays in the beautiful and peaceful region of Sí Bheg, Sí Mhor when suddenly a dark ancient cult arises).
+🐉 Playing Dungeons & Dragons 5e both as a Halfling Calligrapher Warlock called Nim Inkwell 🧙🏻 and a Tabaxi Barbarian called Ban K'nurr an Tauira 😸. I am also a Dungeon Master in a custom campaign that plays in the beautiful and peaceful region around Sí Bheg, Sí Mhor when suddenly a dark ancient cult arises. Currently I am playing online due to COVID restrictions.
 
-🏥 Doing regular qi gong 🥋, core strength training 💪, zazen 🧘‍ and reading books on philosophy 🤔 help to keep my physical and mental health up.
+💪 Testing the minimalist Calisthenics program by [Kyle Boggeman](https://www.kboges.com/).
 
-<footer>
+</section><footer>
 
 _Check out [nownownow] to learn about the origin of the "/now/" page. Updated {% DateTime { date: date } %}_
 

@@ -9,9 +9,9 @@ pre {
     white-space: pre-line;
     word-wrap: break-word;
 
-    padding: var(--gap);
+    padding: var(--gap) calc(var(--gap));
     border: var(--border);
-    max-width: calc(100% + 2 * 0.75 var(--gap));
+    max-width: calc(100% + 2 * 0.75 * var(--gap));
     overflow-x: auto;
 }
 

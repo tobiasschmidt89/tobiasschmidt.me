@@ -10,16 +10,12 @@ export default ({author}) => `
         <a href="mailto:${author.email}">Email</a>
         <a href="https://github.com/${author.x.social.github}">GitHub</a>
         <a href="https://www.linkedin.com/in/${author.x.social.linkedin}">LinkedIn</a>
-    </div>
-    <div>
-        <strong>Blog</strong>
-        <a href="/#post-list">Index</a>
         <a href="/subscribe/">Subscribe</a>
-        <a href="/styleguide/">Styleguide</a>
     </div>
     <div>
         <strong>Site</strong>
         <a href="/about/">Colophon</a>
+        <a href="/styleguide/">Styleguide</a>
         <a href="/legal/">Imprint</a>
         <a href="/privacy/">Privacy</a>
     </div>
@@ -35,12 +31,16 @@ export const css = `
 
 @media screen and (min-width: 900px) {
     .site-navigation {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
 .site-navigation div * {
     display: block;
+}
+
+.site-navigation strong {
+    font-weight: var(--bold);
 }
 
 .site-navigation a {

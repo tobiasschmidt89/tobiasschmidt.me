@@ -5,7 +5,18 @@ subtitle: Tin Whistle
 description: Tunes I play on my Tin Whistle.
 tags: collection
 ---
+
+<header>
+
+# [{{title}}](/)
+
+{{subtitle}}
+
+</header><section>
+
 I play the Irish tin whistle---mostly a [Collin Goldie] Low D whistle, but I also use Collin Goldie Low C, Low F, [Kerry Whistles] Chieftain V5 Low D and and some cheap retailer High D whistles. Here I am keeping track of all the tunes I know. Each tune is linked to The Session---a global community of meetups to play and train traditional folk music with other musicians.
+
+</section><section>
 
 ## Jigs
 
@@ -13,16 +24,22 @@ I play the Irish tin whistle---mostly a [Collin Goldie] Low D whistle, but I als
 -   [The Kesh](https://thesession.org/tunes/55)
 -   [The Three Sea Captains](https://thesession.org/tunes/147)
 
+</section><section>
+
 ## Slip Jigs
 
 -   [The Drops Of Brandy](https://thesession.org/tunes/388)
 -   [The Dusty Miller](https://thesession.org/tunes/28)
 -   [The Butterfly](https://thesession.org/tunes/10)
 
+</section><section>
+
 ## Polkas
 
 -   [The Ballydesmond](https://thesession.org/tunes/239)
 -   [Spanish Lady](https://thesession.org/tunes/1117)
+
+</section><section>
 
 ## Reels
 
@@ -32,10 +49,14 @@ I play the Irish tin whistle---mostly a [Collin Goldie] Low D whistle, but I als
 -   [Heaton Chapel](https://thesession.org/tunes/572)
 -   [The Green Fields Of Rossbeigh](https://thesession.org/tunes/322)
 
+</section><section>
+
 ## Slides
 
 -   [Merrily Kissed The Quaker](https://thesession.org/tunes/70)
 -   [Cathleen Hehir’s](https://thesession.org/tunes/157)
+
+</section><section>
 
 ## Waltz
 
@@ -49,10 +70,14 @@ I play the Irish tin whistle---mostly a [Collin Goldie] Low D whistle, but I als
 -   [Caroline's Welcome](https://thesession.org/tunes/1055)
 -   [Farewell To Spain / Spanish Ladies](https://thesession.org/tunes/6519)
 
+</section><section>
+
 ## Other
 
 -   Herr Mannelig
 -   Concerning Hobbits
+
+</section><section>
 
 ## To Learn
 
@@ -63,6 +88,8 @@ I play the Irish tin whistle---mostly a [Collin Goldie] Low D whistle, but I als
 -   Tam Lin
 -   Ashokan Farewell
 -   The Old Church of Kilronan
+
+</section>
 
 {% include "abbr.njk" %}
 {% include "links.njk" %}

@@ -28,23 +28,7 @@
 }
 
 :root {
-    font-family: var(--text-stack);
-    font-size: var(--text-size);
-    font-feature-settings: var(--text-settings);
-    letter-spacing: var(--text-spacing);
-    line-height: var(--text-height);
-    color-scheme: light dark;
-    color: var(--text-on-canvas);
-    background: var(--canvas);
-    hanging-punctuation: first;
-}
-
-img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    -ms-interpolation-mode: bicubic;
+    box-shadow: inset 0px 0px var(--sm) 0px rgba(0 0 0 / 0.1);
 }
 
 @media (prefers-reduced-motion: reduce) {

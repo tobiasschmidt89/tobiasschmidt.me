@@ -6,7 +6,20 @@ description: Legal Notice of the website.
 date: 2021-09-16
 tags: legal
 ---
+
+<header>
+
+# [{{title}}](/)
+
+{{subtitle}}
+
+</header>
+
+<section>
+
 tobiasschmidt.me is the personal website of {{ author.name }}. Following you will find information pursuant to &sect; 5 TMG.
+
+</section><section>
 
 ## Contact
 
@@ -22,6 +35,8 @@ tobiasschmidt.me is the personal website of {{ author.name }}. Following you wil
 
 Sales tax identification number (VAT ID) according to &sect; 27 a of the Sales Tax Law:
 {{ author.x.vatID }}
+
+</section><section>
 
 ## Disclaimer
 
@@ -44,6 +59,8 @@ Contents and compilations published on these websites by the providers are subje
 Copyright laws of third parties are respected as long as the contents on these websites do not originate from the provider. Contributions of third parties on this site are indicated as such. However, if you notice any violations of copyright law, please inform us. Such contents will be removed immediately.
 
 Code examples on this page are published under [MIT] license.
+
+</section><section>
 
 <footer>
 

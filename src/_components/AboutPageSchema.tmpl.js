@@ -16,7 +16,7 @@ export default ({title, description, url, author, site}) => {
     }
 
     return `
-    <!-- WebPage Schema -->
+    <!-- AboutPage Schema -->
     <script type="application/ld+json" id="aboutpage">
         ${JSON.stringify(aboutPage)}
     </script>

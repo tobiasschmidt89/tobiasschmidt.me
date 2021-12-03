@@ -3,6 +3,15 @@ title: Seasonality in digital work
 description: Thoughts on the ways to add seasonality to digital work.
 date: 2021-10-05
 ---
+
+<header>
+
+# [{{title}}](/)
+
+{% DateTime {date: date} %}
+
+</header><section>
+
 During my summer vacation I had a nice chat with our landlord. He works as a golf trainer during summer season and a painter during winter season. Painting helps him to recover from the draining physical work as a trainer.
 
 This got me thinking. Didn't we always have some kind of seasonality in our work? I expect physical jobs like farmers, hunters, or woodcutters follow the yearly seasons. I imagine that in the past our life and work was fundamentally different during each season. I like the thought of a "harvest season". Each year you reap the results of your work, have a huge harvest party, then move on to something different. You know that the current work season will end at date x, no matter how challenging it is at the moment. Also it allows to have different modes of mental and physical strain.
@@ -24,11 +33,13 @@ Here are some ideas I have that could introduce some seasonality:
 
 I know some of these topics are not good for productivity. But keeping employees also has benefits like reducing hiring and onboarding costs.
 
----
-
 So what do I do now after realising this? My first step is to work part time. I am very grateful that my current employer [Plan.Net] offers me the option to work part time. This allows me to have a fixed set of days each week where I have typical digital project work. On the rest of the week I can work the way I want, following the seasons. E.g. I can spend more time with the family during summer and do some side project work on the winter. A perfect balance of safety and variety. I am positive that I can extend this mode of work for a very long time.
 
+</section><footer>
+
 _What do you think about introducing seasonality into digital work? Please [let me know](mailto:{{ author.email }}) about your ideas on how this could be realised._
+
+</footer>
 
 {% include "abbr.njk" %}
 {% include "links.njk" %}

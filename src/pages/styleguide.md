@@ -6,7 +6,20 @@ description: Test Page for CSS styling
 date: 2021-09-18
 locale: zxx
 ---
+
+<header>
+
+# [{{title}}](/)
+
+{{subtitle}}
+
+</header>
+
+<section>
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore 19^th^ magna H~2~O aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea [commodo consequat](/). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur **sint occaecat cupidatat** non <abbr title="Cascading Style Sheet">CSS</abbr> sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</section>
 
 <section>
 

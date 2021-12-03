@@ -5,12 +5,21 @@ subtitle: Options to subscribe
 description: Options to subscribe to the content of this website.
 tags: subscribe
 ---
+
+<header>
+
+# [{{title}}](/)
+
+{{subtitle}}
+
+</header><section>
+
 In case you like the content on this website I offer following ways for you to subscribe.
 
 -   [Blog RSS Atom Feed](/feed.xml)
 -   [Blog JSON Feed](/feed.json)
 
-<section>
+</section><section>
 
 ## What is a Feed?
 
@@ -19,6 +28,8 @@ In case you like the content on this website I offer following ways for you to s
 A feed usually contains a list of posts each with their date, title, author and content. Sometimes the content is just an excerpt, encouraging you to read the rest of the content on the original site. An excerpt can defeat the point of providing a feed, where a big benefit is that the reader can customise how the posts display in their feed reader to improve their reading experience.
 
 Feeds usually use .xml or .json file formats. For example, this site’s full RSS feed is available at [{{ site.url }}feed.xml]({{ site.url }}feed.xml) and [{{ site.url }}feed.json]({{ site.url }}feed.json). Browsers won’t render RSS in a readable way and you need a feed reader.
+
+</section><section>
 
 ## What is a Feed Reader?
 
@@ -33,9 +44,7 @@ A feed reader is a service or app that collects feeds you’ve subscribed to, an
 -   [Fraidycat (Firefox and Chrome)](https://fraidyc.at/)
 -   [Feedly (Web, iOS, macOS, Android)](https://feedly.com/)
 
-</section>
-
-<footer>
+</section><footer>
 
 _Contents of this site are based on [Laura Kalbag's subscribe page](https://laurakalbag.com/subscribe/) [(license)](https://creativecommons.org/licenses/by-sa/4.0/)._
 

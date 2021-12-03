@@ -4,11 +4,11 @@ export default ({site}) => `
 <!-- Tech -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="generator" content="Lume">
 <link rel="manifest" href="/manifest.json">
-<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="${site.name}">
-<link rel="alternate" href="/feed.json" type="application/json" title="${site.name}">
+<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="${site.name} feed">
+<link rel="alternate" href="/feed.json" type="application/json" title="${site.name} feed">
 
 <!-- Assets -->
 <link rel="stylesheet" href="/assets/css/main.css?v=${timestamp}" />

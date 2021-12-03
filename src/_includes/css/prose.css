@@ -1,74 +1,87 @@
-export default ({content}) => `
-<article class="prose">
-${content}
-</article>
-`
+:root {
+    font-family: var(--text-stack);
+    font-size: var(--text-size);
+    font-feature-settings: var(--text-settings);
+    letter-spacing: var(--text-spacing);
+    line-height: var(--text-height);
+    color-scheme: light dark;
+    color: var(--text-on-canvas);
+    background-color: var(--canvas);
+    hanging-punctuation: first;
+}
 
-export const css = `
-.prose {
+main, article {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     gap: var(--gutter);
 }
 
-.prose :is(section, aside, footer) {
+:is(main,article) :is(section, aside, footer) {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     gap: var(--gap);
 }
 
-.prose :is(h1, h2, h3, h4, h5, h6) {
+header p {
+    color: var(--link-on-canvas);
+}
+
+h1, h2, h3 {
     font-weight: var(--bold);
 }
 
-.prose h3 {
+h4, h5, h6 {
+    display: none;
+}
+
+h3 {
     font-style: italic;
 }
 
-.prose :is(* + h2, * + section, * + footer) {
+* + h2 {
     margin-top: var(--gap);
 }
 
-.prose :is(b, strong) {
+b, strong {
     font-weight: var(--bold);
 }
 
-.prose :is(i, em) {
+i, em {
     font-style: italic;
 }
 
-.prose s {
+s {
     text-decoration: line-through;
 }
 
-.prose time {
+time {
 }
 
-.prose sub {
+sub {
     font-feature-settings: 'subs' 1;
 }
 
-.prose sup {
+sup {
     font-feature-settings: 'sups' 1;
 }
 
-.prose a {
+a {
     color: var(--link-on-canvas);
     text-decoration: underline;
     text-decoration-color: var(--decoration-on-canvas);
 }
 
-.prose a:hover {
+a:hover {
     color: unset;
     text-decoration-color: unset;
 }
 
-.prose :is(h1, h2, h3) > a {
+:is(h1, h2, h3) > a {
     color: unset;
     text-decoration: none;
 }
 
-.prose blockquote {
+blockquote {
     border-left: var(--border);
     border-width: 0.3em;
     padding-left: calc(var(--gap) * 0.4);
@@ -76,38 +89,38 @@ export const css = `
     font-style: italic;
 }
 
-.prose address * {
+address * {
     margin: 0;
 }
 
-.prose dl {
+dl {
 }
 
-.prose dl dt {
+dl dt {
     font-weight: var(--bold);
     font-style: italic;
 }
 
-.prose dl dd + dt {
+dl dd + dt {
     margin-top: var(--gap);
 }
 
-.prose dl dd::before {
+dl dd::before {
     content: '↳ ';
 }
 
-.prose ul {
+ul {
     list-style: disc;
 }
 
-.prose ul ::marker {
+ul ::marker {
     content: '• ';
     color: var(--decoration-on-canvas);
     padding-left: calc(var(--gap) / 2);
     margin-left: calc(var(--gap) * -0.5);
 }
 
-.prose ol {
+ol {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     gap: var(--gap);
@@ -115,52 +128,60 @@ export const css = `
     counter-reset: ordered-list;
 }
 
-.prose ol li {
+ol li {
     counter-increment: ordered-list;
 }
 
-.prose ol ::marker {
-    content: counter(ordered-list) '\u20dd  ';
+ol ::marker {
+    content: counter(ordered-list) '\20dd  ';
 }
 
-.prose ul li,
-.prose dl dd {
+ul li,
+dl dd {
     margin-top: 0;
 }
 
-.prose hr {
+hr {
     border: none;
     border-top: var(--border);
     width: 100%;
 }
 
-.prose * + hr,
-.prose hr + * {
+* + hr,
+hr + * {
     margin-top: var(--gap);
 }
 
-.prose figure[style*='overflow-x'] {
+figure[style*='overflow-x'] {
     margin-left: calc(-1 * 0.75 * var(--gap));
     margin-right: calc(-1 * 0.75 * var(--gap));
 }
 
-.prose figure[style*='overflow-x'] > figure {
+figure[style*='overflow-x'] > figure {
     padding: 0 var(--gap) var(--gap);
 }
 
-.prose figcaption {
+figcaption {
     margin-top: calc(var(--gap) / 3);
 }
 
-.prose figcaption * {
+figcaption * {
     display: inline;
 }
 
-.prose figcaption::before {
+figcaption::before {
     content: '↳ ';
 }
 
-.prose table {
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+}
+
+table {
     border: var(--border);
     border-collapse: collapse;
     border-spacing: 0;
@@ -169,18 +190,18 @@ export const css = `
     font-feature-settings: "tnum" 1;
 }
 
-.prose table th {
+table th {
     font-weight: var(--bold);
     text-align: left;
 }
 
-.prose table th,
-.prose table td {
+table th,
+table td {
     padding: var(--gap) calc(0.75 * var(--gap));
     border-bottom: var(--border);
 }
 
-.prose details {
+details {
     padding-top: var(--gap);
     padding-bottom: var(--gap);
     border-top: var(--border);
@@ -188,7 +209,7 @@ export const css = `
 
 }
 
-.prose details ::marker {
+details ::marker {
     content: '▷ ';
     color: var(--decoration-on-canvas);
     padding-left: calc(var(--gap) / 2);
@@ -196,27 +217,27 @@ export const css = `
     font-size: 90%;
 }
 
-.prose details[open] ::marker {
+details[open] ::marker {
     content: '▽ ';
 }
 
-.prose details + details {
+details + details {
     margin-top: 0;
     border-top: none;
 }
 
-.prose details summary {
+details summary {
     cursor: pointer;
     list-style-position: outside;
 }
 
 @media not screen and (hover: hover) {
 
-    .prose abbr[title] {
+    abbr[title] {
         text-decoration: none;
     }
 
-    .prose abbr[title]:after {
+    abbr[title]:after {
         content: ' (' attr(title) ')';
     }
 
@@ -224,11 +245,10 @@ export const css = `
 
 @media screen and (hover: hover) {
 
-    .prose abbr[title] {
+    abbr[title] {
         text-decoration: underline dotted;
         text-decoration-color: var(--decoration-on-canvas);
         cursor: help;
     }
 
 }
-`
