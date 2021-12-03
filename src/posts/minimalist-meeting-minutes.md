@@ -43,10 +43,10 @@ Let's have a look at the Context section of the meeting minutes for the fictiona
 
 April 28th 2021
 
--   Sophie
--   Oana
--   Andrej
--   Tobias
+- Sophie
+- Oana
+- Andrej
+- Tobias
 
 ---
 ```
@@ -54,7 +54,7 @@ April 28th 2021
 In this fictional example, first names are enough---for business meetings it makes sense to add the full name, company, and email in the attendee list.
 
 ```md
--   Carrot Inc / Peter Rabbit<peter.rabbit@carrot-inc.com>
+- Carrot Inc / Peter Rabbit<peter.rabbit@carrot-inc.com>
 ```
 
 After providing the Context I list all further items in a simple bullet point list. To separate it from the Context I use a horizontal ruler (`---` in Markdown). Following I will explain each item type in detail.
@@ -151,10 +151,10 @@ Let's put together the full meeting minutes of our fictional meeting.
 
 April 28th, 2021
 
--   Sophie
--   Oana
--   Andrej
--   Tobias
+- Sophie
+- Oana
+- Andrej
+- Tobias
 
 ---
 
