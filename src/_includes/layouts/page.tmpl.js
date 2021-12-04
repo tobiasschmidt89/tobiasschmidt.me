@@ -11,17 +11,14 @@ export default ({title, description, date, subtitle, url, tags, site, time, auth
     const ProfileSchema = comp.profileSchema
 
     const Body = comp.body
-    const Article = comp.article
-    const Header = comp.header
-    const Prose = comp.prose
 
     const isProfile = url.includes('/profile/') || ""
     const isAboutPage = url.includes('/about/') || ""
 
     return `
     <head>
-    ${Tech({site})}
-    ${Meta({title, description, url, site, tags, author})}
+    ${Tech({url, site})}
+    ${Meta({title, description, site, tags, author})}
     ${OpenGraph({title, description, url, site})}
     ${Twitter({title, description, author})}
     ${WebPageSchema({title, description, url, author, site})}

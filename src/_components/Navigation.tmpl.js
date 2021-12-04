@@ -1,5 +1,5 @@
 export default ({prevPost = "", nextPost = ""}) => `
-<footer class="post-footer">
+<footer class="navigation">
     ${nextPost && `
     <div>
         <h2>Older</h2>
@@ -12,14 +12,14 @@ export default ({prevPost = "", nextPost = ""}) => `
             <a href="${prevPost.data.url}" rel="prev">${prevPost.data.title}</a>
         </div>
     `}
-    <div class="post-footer-full">
+    <div class="navigation-full">
         <a href="/" rel="home">Back to Index</a>
     </div>
 </footer>
 `
 
 export const css = `
-.post-footer {
+.navigation {
     grid-column: 1 / -1;
 
     display: grid;
@@ -30,16 +30,16 @@ export const css = `
     padding-top: var(--gutter);
 }
 
-.post-footer h2 {
+.navigation h2 {
     font-weight: normal;
 }
 
-.post-footer a {
+.navigation a {
     color: var(--link-on-canvas);
     text-decoration: none;
 }
 
-.post-footer-full {
+.navigation-full {
     grid-column: 1 / -1;
 }
 

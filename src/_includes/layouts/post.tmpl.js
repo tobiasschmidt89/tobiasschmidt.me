@@ -9,15 +9,14 @@ export default ({title, description, date, url, image, tags, site, time, author,
     const BlogPostingSchema = comp.blogPostingSchema
 
     const Body = comp.body
-    const Prose = comp.prose
 
     const prevPost = search.previousPage(url, "post", "date=desc")
     const nextPost = search.nextPage(url, "post", "date=desc")
 
     return `
     <head>
-    ${Tech({site})}
-    ${Meta({title, description, url, site, tags, author})}
+    ${Tech({url, site})}
+    ${Meta({title, description, site, tags, author})}
     ${OpenGraph({title, description, url, site, image})}
     ${Twitter({title, description, author, image})}
     ${BlogPostingSchema({title, description, url, date, author, site})}

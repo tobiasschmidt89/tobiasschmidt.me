@@ -1,4 +1,4 @@
-export default ({title, description, site, author, url, tags}) => `
+export default ({title, description, site, author, tags}) => `
 <!-- Meta -->
 <title>${title} | ${author?.name}</title>
 <meta name="title" content="${title} | ${author?.name}" />

@@ -1,6 +1,6 @@
 const timestamp = Date.now()
 
-export default ({site}) => `
+export default ({site, url}) => `
 <!-- Tech -->
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
