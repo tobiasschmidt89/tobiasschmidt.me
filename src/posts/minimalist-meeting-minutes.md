@@ -2,7 +2,6 @@
 title: Minimalist Meeting Minutes
 description: My approach on how to create meaningful meeting minutes that allow to make the best out of each meeting.
 date: 2021-12-03
-url: /minimalist-meeting-minutes/
 ---
 
 <header>
