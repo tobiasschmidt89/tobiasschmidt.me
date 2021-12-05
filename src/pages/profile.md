@@ -47,7 +47,7 @@ Digitalisation does not work without proper project planning and execution. As a
 
 ## Technology
 
-Web development is a technology branch that develops fast and brings up new frameworks and programming languages every day. To keep up with this I focus on a deep training of the fundamental web programming languages **HTML, CSS and JavaScript**—for new technologies I always try to check the effort to learn it in relation to the value it provides.
+Web development is a technology branch that develops fast and brings up new frameworks and programming languages every day. To keep up with this I focus on a deep training of the fundamental web programming languages **HTML, CSS and JavaScript**---for new technologies I always try to check the effort to learn it in relation to the value it provides.
 
 Every programmer has his go-to general-purpose programming language to automate everyday tasks. I chose **[Node]**, a very obvious addition to my skill set as it relies on JavaScript---the same programming language that is used for websites. I also use Node for writing servers and APIs and use it for data science and visualisation tasks. **[Deno]** is an evolution of Node by its own creator [Ryan Dahl](https://en.wikipedia.org/wiki/Ryan_Dahl). Deno tries to solve some design issues of Node while providing optimised DX. Thus I started to migrate to Deno.
 
