@@ -64,33 +64,33 @@ date: 2021-09-16
 # Static File Caching
 <IfModule mod_headers.c>
 <FilesMatch "\.(gif|ico|jpeg|jpg|png|css|js|woff2)$">
-Header set Cache-Control "max-age=31536000, public"
+	Header set Cache-Control "max-age=31536000, public"
 </FilesMatch>
 </IfModule>
 
 # GZIP Compression
 <IfModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE image/svg+xml
-  AddOutputFilterByType DEFLATE application/javascript
-  AddOutputFilterByType DEFLATE application/rss+xml
-  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
-  AddOutputFilterByType DEFLATE application/x-font
-  AddOutputFilterByType DEFLATE application/x-font-opentype
-  AddOutputFilterByType DEFLATE application/x-font-otf
-  AddOutputFilterByType DEFLATE application/x-font-truetype
-  AddOutputFilterByType DEFLATE application/x-font-ttf
-  AddOutputFilterByType DEFLATE application/x-javascript
-  AddOutputFilterByType DEFLATE application/xhtml+xml
-  AddOutputFilterByType DEFLATE application/xml
-  AddOutputFilterByType DEFLATE font/opentype
-  AddOutputFilterByType DEFLATE font/otf
-  AddOutputFilterByType DEFLATE font/ttf
-  AddOutputFilterByType DEFLATE image/x-icon
-  AddOutputFilterByType DEFLATE text/css
-  AddOutputFilterByType DEFLATE text/html
-  AddOutputFilterByType DEFLATE text/javascript
-  AddOutputFilterByType DEFLATE text/plain
-  AddOutputFilterByType DEFLATE text/xml
+  	AddOutputFilterByType DEFLATE image/svg+xml
+  	AddOutputFilterByType DEFLATE application/javascript
+  	AddOutputFilterByType DEFLATE application/rss+xml
+  	AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  	AddOutputFilterByType DEFLATE application/x-font
+  	AddOutputFilterByType DEFLATE application/x-font-opentype
+  	AddOutputFilterByType DEFLATE application/x-font-otf
+  	AddOutputFilterByType DEFLATE application/x-font-truetype
+  	AddOutputFilterByType DEFLATE application/x-font-ttf
+  	AddOutputFilterByType DEFLATE application/x-javascript
+  	AddOutputFilterByType DEFLATE application/xhtml+xml
+  	AddOutputFilterByType DEFLATE application/xml
+  	AddOutputFilterByType DEFLATE font/opentype
+  	AddOutputFilterByType DEFLATE font/otf
+  	AddOutputFilterByType DEFLATE font/ttf
+  	AddOutputFilterByType DEFLATE image/x-icon
+  	AddOutputFilterByType DEFLATE text/css
+  	AddOutputFilterByType DEFLATE text/html
+  	AddOutputFilterByType DEFLATE text/javascript
+  	AddOutputFilterByType DEFLATE text/plain
+  	AddOutputFilterByType DEFLATE text/xml
 </IfModule>
 
 # Redirect 404 to Index
