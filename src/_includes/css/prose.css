@@ -231,6 +231,10 @@ details summary {
     list-style-position: outside;
 }
 
+nav * {
+    display: block;
+}
+
 @media not screen and (hover: hover) {
 
     abbr[title] {

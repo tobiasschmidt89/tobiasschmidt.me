@@ -23,11 +23,9 @@ Hi, I'm [Tobi](/profile/) a hands-on digitalisation expert in Munich. I help com
 
 ## Writing
 
-<nav>
-
-{% for post in search.pages("post") | reverse %}<a style="display: block;" href="{{post.data.url}}">{{ post.data.title }}</a>{% endfor %}
-
-</nav>
+<nav>{%- for post in search.pages("post") | reverse -%}
+<a href="{{post.data.url}}">{{ post.data.title }}</a>
+{%- endfor -%}</nav>
 
 </section><section>
 
