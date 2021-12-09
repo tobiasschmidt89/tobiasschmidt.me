@@ -2,6 +2,6 @@
 
 # Allow crawling of all content
 User-agent: *
-Disallow:
+Allow: /
 
-Sitemap: {{ url | url(true) }}
+Sitemap: {{ 'sitemap.xml' | url(true) }}
