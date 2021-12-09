@@ -40,6 +40,11 @@ date: 2021-09-16
 	Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
 </IfModule>
 
+# Referrer-Policy
+<IfModule mod_headers.c>
+	Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
 # Permission-Policy
 <IfModule mod_headers.c>
 	Header set Permissions-Policy "geolocation=(), camera=(), microphone=()"
