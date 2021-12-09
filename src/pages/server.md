@@ -42,7 +42,7 @@ date: 2021-09-16
 
 # Referrer-Policy
 <IfModule mod_headers.c>
-	Header set Referrer-Policy "same-origin"
+	Header set Referrer-Policy "origin"
 </IfModule>
 
 # Permission-Policy
