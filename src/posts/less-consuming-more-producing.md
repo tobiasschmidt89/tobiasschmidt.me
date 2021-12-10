@@ -8,7 +8,7 @@ date: 2021-11-05
 
 # [{{title}}](/)
 
-{% DateTime {date: date} %}
+{{ comp.dateTime({date: date}) | safe }}
 
 </header><section>
 

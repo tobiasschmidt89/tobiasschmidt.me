@@ -5,13 +5,12 @@ import inline from 'lume/plugins/inline.ts'
 import postcss from 'lume/plugins/postcss.ts'
 import slugifyUrls from 'lume/plugins/slugify_urls.ts'
 import codeHighlight from 'lume/plugins/code_highlight.ts'
+import components from 'https://raw.githubusercontent.com/lumeland/experimental-plugins/main/components/components.ts';
 
 import markdown from './_markdown.js'
 import preprocess from './_preprocess.js'
 import process from './_process.js'
 import helper from './_helper.js'
-import shortcodes from './_shortcodes.js'
-import components from './components/components.ts'
 
 const site = JSON.parse(Deno.readTextFileSync('./src/_data/site.json'));
 
@@ -30,7 +29,9 @@ generator
     .use(postcss())
     .use(slugifyUrls())
     .use(codeHighlight())
-    .use(components())
+    .use(components({
+        cssFile: "/assets/css/components.css",
+    }))
 
 generator
     .copy('assets/fonts')
@@ -48,10 +49,6 @@ for (let p of process) {
 
 for (let h of helper) {
     generator.helper(h[0], h[1], h[2])
-}
-
-for (let s of shortcodes) {
-    generator.helper(s[0], s[1], s[2])
 }
 
 export default generator

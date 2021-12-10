@@ -9,6 +9,16 @@ const x = [
     { type: 'filter' }
 ]
 
+const setAttribute = [
+    'setAttribute',
+    (dictionary, key, value) => {
+        dictionary[key] = value;
+        return dictionary;
+    },
+    { type: 'filter' }
+]
+
 export default [
-    x
+    x,
+    setAttribute,
 ]

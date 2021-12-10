@@ -42,5 +42,4 @@ export const css = `
 .navigation-full {
     grid-column: 1 / -1;
 }
-
 `

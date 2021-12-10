@@ -10,6 +10,23 @@
     hanging-punctuation: first;
 }
 
+body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--gutter);
+
+    min-height: 100vh;
+    max-width: var(--text-measure);
+    margin: auto;
+    padding: var(--frame);
+}
+
+body > main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--gutter);
+}
+
 main, article {
     display: grid;
     grid-template-columns: minmax(0, 1fr);

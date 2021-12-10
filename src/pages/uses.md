@@ -15,7 +15,7 @@ tags: uses
 
 </header><footer>
 
-_Check out [uses] to learn about the origin of the "/uses/" page. Updated {% DateTime { date: date } %}_
+_Check out [uses] to learn about the origin of the "/uses/" page. Updated {{ comp.dateTime({date: date}) | safe }}_
 
 </footer>
 

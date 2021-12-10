@@ -64,7 +64,7 @@ Code examples on this page are published under [MIT] license.
 
 <footer>
 
-_Updated {% DateTime { date: date } %}_
+_Updated {{ comp.dateTime({date: date}) | safe }}_
 
 </footer>
 

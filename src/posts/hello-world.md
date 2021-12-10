@@ -8,7 +8,7 @@ date: 2021-09-17
 
 # [{{title}}](/)
 
-{% DateTime {date:date} %}
+{{ comp.dateTime({date: date}) }}
 
 </header><section>
 

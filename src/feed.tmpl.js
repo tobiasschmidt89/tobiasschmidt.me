@@ -1,8 +1,8 @@
 export const url = '/feed.json'
 
 export default async function (
-    { site, author, time, search },
-    { njk, md, url, date, htmlUrl }
+    { site, author, time, search, comp},
+    { njk, md, url, date, htmlUrl  }
 ) {
     const feed = {
         version: 'https://jsonfeed.org/version/1',
@@ -21,7 +21,7 @@ export default async function (
 
     for (const post of search.pages('post', 'date=desc')) {
 
-        const pageMarkdown = await njk(post.data.content, post.data)
+        const pageMarkdown = await njk(post.data.content, {...post.data, comp})
         const pageHtml = await md(pageMarkdown)
 
         feed.items.push({

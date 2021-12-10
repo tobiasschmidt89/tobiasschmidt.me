@@ -164,7 +164,7 @@ N/A
 
 <footer>
 
-_Updated {% DateTime { date: date } %}_
+_Updated {{ comp.dateTime({date: date}) | safe }}_
 
 </footer>
 

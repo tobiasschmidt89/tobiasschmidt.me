@@ -32,7 +32,7 @@ tags: now
 
 </section><footer>
 
-_Check out [nownownow] to learn about the origin of the "/now/" page. Updated {% DateTime { date: date } %}_
+_Check out [nownownow] to learn about the origin of the "/now/" page. Updated {{ comp.dateTime({date: date}) | safe }}_
 
 </footer>
 
