@@ -30,9 +30,9 @@ To kick off my meeting minutes I like to provide some context for the meeting. F
 
 This part is usually quite boring to do so I try to keep it as pragmatic as possible.
 
-E.g. in case, I have a meeting in my outlook calendar with the name, date, and attendee list I usually omit this part. I only share the actual notes (IDA) of the meeting by replying to all attendees of the meeting invite.
+E.g. in case I have a meeting in my outlook calendar with the name, date, and attendee list I usually omit this part. I only share the actual notes (IDA) of the meeting by replying to all attendees of the meeting invite.
 
-E.g. in case, I document the meeting minutes in a JIRA ticket I will omit the date in case I add it on the day of the meeting. Ticket systems usually add the date to ticket comments anyway.
+E.g. in case I document the meeting minutes in a JIRA ticket I will omit the date. Ticket systems usually add the date to ticket comments anyway.
 
 E.g. instead of writing the same attendee list over and over again for weekly jour fix meetings I instead document who was absent or a special guest.
 
