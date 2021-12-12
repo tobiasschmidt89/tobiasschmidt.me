@@ -17,9 +17,7 @@
         <published>{{ post.data.date | date("ATOM") }}</published>
 		<updated>{{ post.data.date | date("ATOM") }}</updated>
 		<id>{{ post.data.url | url(true) }}</id>
-        {% set postData = post.data %}
-        {% set postData = postData | setAttribute('comp', comp) %}
-		<content type="html">{{ post.data.content | njk(postData) | md | htmlUrl(true) }}</content>
+		<content type="html">{{ post.data.content | njk(post.data) | md | htmlUrl(true) }}</content>
 	</entry>
 	{%- endfor %}
 </feed>

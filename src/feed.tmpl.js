@@ -21,7 +21,7 @@ export default async function (
 
     for (const post of search.pages('post', 'date=desc')) {
 
-        const pageMarkdown = await njk(post.data.content, {...post.data, comp})
+        const pageMarkdown = await njk(post.data.content, post.data)
         const pageHtml = await md(pageMarkdown)
 
         feed.items.push({
