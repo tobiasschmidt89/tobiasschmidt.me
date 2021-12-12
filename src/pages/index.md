@@ -17,7 +17,7 @@ tags: index
 
 <section>
 
-Hi, I'm [Tobi](/profile/), a hands-on digitalisation expert in Munich---an engineer at heart with a business value-driven mindset. I currently work at the intersection of online marketing, business intelligence and marketing automation to enable companies to deliver dependable, personalised and profitable digital experiences to their customers. On my blog, I am sharing thoughts on digitalisation and the web.
+*An engineer at heart with a business value-driven mindset.* I currently work at the intersection of online marketing, business intelligence and marketing automation to enable companies to deliver dependable, personalised and profitable digital experiences to their customers. On my blog, I am sharing thoughts on digitalisation and the web.
 
 </section><section>
 
