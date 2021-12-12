@@ -68,5 +68,4 @@ _Updated {{ comp.dateTime({date: date}) | safe }}_
 
 </footer>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

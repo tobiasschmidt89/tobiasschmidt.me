@@ -91,5 +91,4 @@ I play the Irish tin whistle---a [Collin Goldie] Low D whistle, but I also use C
 
 </section>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

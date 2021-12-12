@@ -71,5 +71,4 @@ _[Here](/now/) you can find what I am working on right now. My full CV is availa
 
 </footer>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

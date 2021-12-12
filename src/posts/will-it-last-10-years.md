@@ -35,5 +35,4 @@ _What do you think about taking a boring and minimalist approach to websites? Wh
 
 </footer>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

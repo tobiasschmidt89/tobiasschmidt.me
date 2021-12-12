@@ -198,5 +198,4 @@ _CIDA helped me to overcome the fear of writing meeting minutes. I now like meet
 
 </footer>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

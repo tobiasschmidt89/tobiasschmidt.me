@@ -39,5 +39,4 @@ _How do you feel about content consumption in the digital age? What are your str
 
 </footer>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

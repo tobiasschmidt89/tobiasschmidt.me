@@ -71,5 +71,4 @@ _Please [let me know][Email] in case you have any questions about how I created 
 
 </footer>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

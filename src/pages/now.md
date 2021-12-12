@@ -36,5 +36,4 @@ _Check out [nownownow] to learn about the origin of the "/now/" page. Updated {{
 
 </footer>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

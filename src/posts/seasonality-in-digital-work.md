@@ -41,5 +41,4 @@ _What do you think about introducing seasonality into digital work? Please [let 
 
 </footer>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

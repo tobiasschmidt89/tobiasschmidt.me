@@ -41,5 +41,4 @@ My website is open-source published on [GitHub](https://github.com/{{author.x.so
 
 </section>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

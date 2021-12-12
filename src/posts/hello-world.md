@@ -39,5 +39,4 @@ _Tobias_
 
 <footer>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

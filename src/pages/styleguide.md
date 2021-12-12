@@ -224,5 +224,4 @@ _Images on this site are from [Unsplash]._
 
 </footer>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

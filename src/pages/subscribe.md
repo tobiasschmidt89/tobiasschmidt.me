@@ -50,5 +50,4 @@ _Contents of this site are based on [Laura Kalbag's subscribe page](https://laur
 
 </footer>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}

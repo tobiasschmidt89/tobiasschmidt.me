@@ -19,5 +19,4 @@ _Check out [uses] to learn about the origin of the "/uses/" page. Updated {{ com
 
 </footer>
 
-{% include "abbr.njk" %}
 {% include "links.njk" %}
