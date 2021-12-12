@@ -6,9 +6,6 @@ description: Tunes I play on my Tin Whistle.
 date: 2021-09-16
 tags: collection
 ---
-Following you will find a collection of technology related quotes that inspire me. I just started to assemble this list and will extend it whenever I find a nice addition.
-
----
 
 <header>
 
@@ -16,9 +13,11 @@ Following you will find a collection of technology related quotes that inspire m
 
 {{subtitle}}
 
-</header>
+</header><section>
 
-<section>
+Following you will find a collection of technology related quotes that inspire me. I just started to assemble this list and will extend it whenever I find a nice addition.
+
+</section><section>
 
 <figure>
 
