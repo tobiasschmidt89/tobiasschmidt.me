@@ -2,11 +2,11 @@ export const layout = 'layouts/base.njk'
 
 export default ({title, description, date, url, image, tags, site, time, author, content, search, comp}) => {
 
-    const Tech = comp.tech
-    const Meta = comp.meta
-    const OpenGraph = comp.openGraph
-    const Twitter = comp.twitter
-    const BlogPostingSchema = comp.blogPostingSchema
+    const Tech = comp.head.tech
+    const Meta = comp.head.meta
+    const OpenGraph = comp.head.openGraph
+    const Twitter = comp.head.twitter
+    const BlogPostingSchema = comp.head.blogPostingSchema
 
     const Body = comp.body
 

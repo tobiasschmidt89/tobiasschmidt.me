@@ -4,12 +4,12 @@ export default async (
     {title, description, tags, url, site, time, author, content, search, comp},
     {njk, md, date, htmlUrl}) => {
 
-    const Tech = comp.tech
-    const Meta = comp.meta
-    const OpenGraph = comp.openGraph
-    const Twitter = comp.twitter
-    const WebPageSchema = comp.webPageSchema
-    const WebsiteSchema = comp.websiteSchema
+    const Tech = comp.head.tech
+    const Meta = comp.head.meta
+    const OpenGraph = comp.head.openGraph
+    const Twitter = comp.head.twitter
+    const WebPageSchema = comp.head.webPageSchema
+    const WebsiteSchema = comp.head.websiteSchema
 
     const Body = comp.body
 
