@@ -1,11 +1,7 @@
 # www.robotstxt.org
 
-# Disallow wayback machine
-User-agent: ia_archiver
-Disallow: /
+Sitemap: {{ 'sitemap.xml' | url(true) }}
 
 # Allow all for other crawler
 User-agent: *
-Allow: /
-
-Sitemap: {{ 'sitemap.xml' | url(true) }}
+Disallow:
