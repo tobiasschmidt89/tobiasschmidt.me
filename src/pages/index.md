@@ -31,7 +31,7 @@ tags: index
 
 ## Connect
 
-I am interested in meeting new people, learning new things, and helping with interesting projects. I am happy to connect on [LinkedIn](https://www.linkedin.com/in/{{author.x.social.linkedin}}) and [Github](https://github.com/{{author.x.social.github}}). To stay in touch I am looking forward to receiving an Email. If you like the content I write on my blog you can consider [subscribing](/subscribe/) to my feed. In case you would like to learn more about me you can check out my [profile](/profile/) and [now](/now/) pages.
+I am interested in meeting new people, learning new things, and helping with interesting projects. I am happy to connect on [LinkedIn](https://www.linkedin.com/in/{{author.x.social.linkedin}}) and [Github](https://github.com/{{author.x.social.github}}). To stay in touch I am looking forward to receiving an Email. If you like the content I write on my blog you can consider [subscribing](/subscribe/) to my feed. In case you would like to learn more about me you can check out my [profile](/profile/), [now](/now/) and [uses](/uses/) pages.
 
 </section><section>
 
