@@ -35,7 +35,6 @@ export const css = `
 }
 
 .navigation a {
-    color: var(--link-on-canvas);
     text-decoration: none;
 }
 

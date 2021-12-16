@@ -22,11 +22,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-:not(img):not(picture):not(video)::selection {
-    color: var(--canvas);
-    background-color: var(--text-on-canvas);
-}
-
 @media (prefers-reduced-motion: reduce) {
     * {
         animation-duration: 0.01s !important;

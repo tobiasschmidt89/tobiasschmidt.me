@@ -50,7 +50,7 @@ pre[class*='language-'] {
 .hljs-meta,
 .hljs-selector-id,
 .hljs-title {
-    color: var(--link);
+    color: var(--on-canvas--dim);
 }
 
 .hljs-comment,

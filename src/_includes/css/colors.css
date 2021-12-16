@@ -1,0 +1,38 @@
+/* -------------
+Color Properties
+------------- */
+
+:root {
+    --hue: 200;
+    --canvas: hsl(var(--hue) 2% 97%);
+    --on-canvas: hsl(var(--hue) 10% 10%);
+    --on-canvas--dim: hsl(var(--hue) 20% 35%);
+    --on-canvas--mute: hsl(var(--hue) 10% 90%);
+
+    --border: 1px solid var(--on-canvas--mute);
+    --shadow:
+      0px 0.2px 0.9px hsl(var(--hue) 1% 1% / 0.003),
+      0px 0.5px 2px hsl(var(--hue) 1% 1% / 0.004),
+      0px 0.7px 3.5px hsl(var(--hue) 1% 1% / 0.006),
+      0px 1.1px 5.3px hsl(var(--hue) 1% 1% / 0.007),
+      0px 1.5px 7.8px hsl(var(--hue) 1% 1% / 0.008),
+      0px 2.1px 11.4px hsl(var(--hue) 1% 1% / 0.009),
+      0px 2.8px 16.8px hsl(var(--hue) 1% 1% / 0.011),
+      0px 4px 25.6px hsl(var(--hue) 1% 1% / 0.014),
+      0px 5.8px 41.3px hsl(var(--hue) 1% 1% / 0.018),
+      0px 8px 73px hsl(var(--hue) 1% 1% / 0.02);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --canvas: hsl(var(--hue) 2% 7%);
+        --on-canvas: hsl(var(--hue) 4% 88%);
+        --on-canvas--dim: hsl(var(--hue) 6% 66%);
+        --on-canvas--mute: hsl(var(--hue) 2% 15%);
+    }
+}
+
+:not(img):not(picture):not(video)::selection {
+    color: var(--canvas);
+    background-color: var(--on-canvas);
+}

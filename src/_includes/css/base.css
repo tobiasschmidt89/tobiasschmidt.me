@@ -5,7 +5,7 @@
     letter-spacing: var(--text-spacing);
     line-height: var(--text-height);
     color-scheme: light dark;
-    color: var(--text-on-canvas);
+    color: var(--on-canvas);
     background-color: var(--canvas);
     hanging-punctuation: first;
 }
@@ -33,14 +33,14 @@ main, article {
     gap: var(--gutter);
 }
 
-:is(main,article) :is(section, aside, footer) {
+:is(main, article) :is(section, aside, footer) {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     gap: var(--gap);
 }
 
-header p {
-    color: var(--link-on-canvas);
+header h1 + p {
+    color: var(--on-canvas--dim);
 }
 
 h1, h2, h3 {
@@ -83,9 +83,9 @@ sup {
 }
 
 a {
-    color: var(--link-on-canvas);
+    color: var(--on-canvas--dim);
     text-decoration: underline;
-    text-decoration-color: var(--decoration-on-canvas);
+    text-decoration-color: var(--on-canvas--mute);
 }
 
 a:hover {
@@ -132,7 +132,7 @@ ul {
 
 ul ::marker {
     content: '• ';
-    color: var(--decoration-on-canvas);
+    color: var(--on-canvas--mute);
     padding-left: calc(var(--gap) / 2);
     margin-left: calc(var(--gap) * -0.5);
 }
@@ -223,12 +223,12 @@ details {
     padding-bottom: var(--gap);
     border-top: var(--border);
     border-bottom: var(--border);
-
+    border-style: dotted;
 }
 
 details ::marker {
     content: '▷ ';
-    color: var(--decoration-on-canvas);
+    color: var(--on-canvas--mute);
     padding-left: calc(var(--gap) / 2);
     margin-left: calc(var(--gap) * -0.5);
     font-size: 90%;
@@ -239,13 +239,17 @@ details[open] ::marker {
 }
 
 details + details {
-    margin-top: 0;
+    margin-top: calc(-1 * var(--gap));
     border-top: none;
 }
 
 details summary {
     cursor: pointer;
     list-style-position: outside;
+}
+
+details * + * {
+    margin-top: var(--gap);
 }
 
 nav * {
@@ -268,7 +272,7 @@ nav * {
 
     abbr[title] {
         text-decoration: underline dotted;
-        text-decoration-color: var(--decoration-on-canvas);
+        text-decoration-color: var(--on-canvas--mute);
         cursor: help;
     }
 

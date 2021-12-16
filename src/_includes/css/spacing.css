@@ -1,0 +1,36 @@
+:root {
+    --xxs: calc(0.125 * var(--md));
+    --xs: calc(0.25 * var(--md));
+    --sm: calc(0.5 * var(--md));
+    --md: 1.5rem;
+    --lg: calc(2 * var(--md));
+    --xl: calc(4 * var(--md));
+    --xxl: calc(8 * var(--md));
+
+    --gap: var(--md);
+    --gutter: var(--lg);
+
+    --frame:
+        max(env(safe-area-inset-top), var(--lg))
+        max(env(safe-area-inset-right), calc(0.75 * var(--md)))
+        max(env(safe-area-inset-bottom), var(--lg))
+        max(env(safe-area-inset-left), calc(0.75 * var(--md)));
+
+    --cols: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 700px) {
+    :root {
+        --frame:
+            max(env(safe-area-inset-top), var(--xxl))
+            max(env(safe-area-inset-right), var(--lg))
+            max(env(safe-area-inset-bottom), var(--xxl))
+            max(env(safe-area-inset-left), var(--lg));
+    }
+}
+
+@media (min-width: 900px) {
+    :root {
+        --cols: repeat(2, minmax(0, 1fr));
+    }
+}
