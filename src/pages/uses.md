@@ -37,7 +37,7 @@ On this page you will find what Hardware and Software I am currently using. I us
 
 **Atom** is my main code editor. The moment I used it for the first time I fell in love with it. It is minimalistic, yet allows to be extended in every possible way with plug-ins. I tried innovative code editors like Vim and full IDEs like VS Code---as much as they bring value I always come back to the simplistic Atom. Additionally, it works well in conjunction with GitHub Desktop. The only modifications I use is a default font (JetBrains Mono) and the Prettier package.
 
-**GitHub & GitHub Desktop** is my main way to organise and version tech projects. As much as I like using the Terminal to look like a hacker---Github Desktop makes using Git intuitive and straightforward. It is just so simple to change branches and to browse commits. I also use it to launch projects in Atom and Terminal. For me, it is much faster than 'cd-ing' to a project folder in my Terminal. Also, GitHub evolved a lot with amazing collaboration tools. I can see a future where GitHub becomes the main diver of organisations.
+**GitHub & GitHub Desktop** is my main way to organise and version tech projects. As much as I like using the Terminal to look like a hacker---Github Desktop makes using Git intuitive and straightforward. It is just so simple to change branches and to browse commits. I also use it to launch projects in Atom and Terminal. For me, it is much faster than 'cd-ing' to a project folder in my Terminal. Also, GitHub evolved a lot with amazing collaboration tools. I can see a future where GitHub becomes the main driver of organisations.
 
 **Dropbox** is where I store my important files. It is cross-platform, worked reliably for ages and is easy to use.
 
