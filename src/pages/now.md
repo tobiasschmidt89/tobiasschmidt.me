@@ -3,7 +3,7 @@ url: /now/
 title: Now
 subtitle: What I'm currently doing
 description: What Im currently doing
-date: 2021-11-27
+date: 2021-12-16
 tags: now
 ---
 
@@ -20,7 +20,7 @@ tags: now
 
 🤖 Working on DMP & CDP projects as a Senior Solution Consultant at Plan.Net. Building a team.
 
-💻 My new blog (that you are currently on) is live 🥳, but it is never finished! I am working on implementing a component system.
+💻 Fine-tuning the css stylesheet of my blog. Trying to find a serif font that I want to use for italics.
 
 🖼 Trying out generative art after reading [this essay of Tyler Hobbs](https://tylerxhobbs.com/essays/2019/code-goes-in-art-comes-out). Maybe it will become a new hobby of mine---but I need to refresh my Geometry skills for it. At least it helps me to level up my JavaScript, SVG and Canvas skills.
 
