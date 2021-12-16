@@ -2,6 +2,7 @@
     font-family: var(--text-stack);
     font-size: var(--text-size);
     font-feature-settings: var(--text-settings);
+    font-variant-ligatures: contextual common-ligatures;
     letter-spacing: var(--text-spacing);
     line-height: var(--text-height);
     hanging-punctuation: first;
@@ -205,7 +206,7 @@ table {
     border-spacing: 0;
     width: 100%;
 
-    font-feature-settings: "tnum" 1;
+    font-variant-numeric: tabular-nums;
 }
 
 table th {
