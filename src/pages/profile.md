@@ -41,7 +41,7 @@ I started to work on hands-on technical and creative freelance projects during m
 
 I am an expert at **engineering** digital solutions. I analyse user requirements, sketch out technical architectures, develop websites and prototypes from scratch, and write glue code between existing tech solutions.
 
-Digitalisation does not work without proper project planning and execution. As an Industrial Engineer and certified SCRUM Project Manager---I know how to translate technology into business and business into technology. Digitalisation does not work without proper **communication**.
+As an Industrial Engineer and certified SCRUM Project Manager---I know how to translate technology into business and business into technology. Digitalisation does not work without proper **communication**.
 
 **Digital Marketing** combines the best of technology, communication, business, and creativity. Moreover, it drives the current digital transformation process of companies. Digital Marketing is a perfect fit for my multidisciplinary skillset that I picked up along with my work in digital agencies, media production and mar-tech companies.
 
@@ -57,7 +57,7 @@ Every programmer has his go-to general-purpose programming language to automate 
 
 ## Languages
 
-Based on many years of working experience in international companies and I am fluent in business level **English** for tech and marketing related topics. **German** is my mother tongue.
+Based on many years of working experience in international companies I am fluent in business level **English** for tech and marketing related topics. **German** is my mother tongue.
 
 </section><section>
 
