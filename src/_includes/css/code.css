@@ -16,8 +16,8 @@ pre {
 }
 
 :not(figure) > pre {
-    margin-left: calc(-1 * var(--gap));
-    margin-right: calc(-1 * var(--gap));
+    margin-inline: calc(-1 * var(--gap));
+    margin-inline: calc(-1 * var(--gap));
 }
 
 code[class*='language-'],
