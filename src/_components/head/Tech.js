@@ -17,7 +17,6 @@ export default ({site, url}) => `
 
 <!-- Assets -->
 <link rel="stylesheet" href="/assets/css/main.css?v=${timestamp}" />
-<link rel="stylesheet" href="/assets/css/components.css?v=${timestamp}" />
 
 <!-- Favicon -->
 <meta name="theme-color" content="white" />

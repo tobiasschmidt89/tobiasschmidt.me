@@ -41,6 +41,30 @@ main, article {
     gap: var(--gap);
 }
 
+body > footer {
+    grid-column: 1 / -1;
+
+    display: grid;
+    grid-template-columns: var(--cols);
+    gap: var(--gutter);
+
+    border-top: var(--border);
+    padding-top: var(--gutter);
+}
+
+body > footer span {
+    display: block;
+    font-weight: normal;
+}
+
+body > footer a {
+    text-decoration: none;
+}
+
+body > footer .full {
+    grid-column: 1 / -1;
+}
+
 header h1 + p {
     color: var(--on-canvas--dim);
 }
