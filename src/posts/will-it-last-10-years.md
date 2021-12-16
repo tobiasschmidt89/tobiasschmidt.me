@@ -12,7 +12,7 @@ date: 2021-09-26
 
 </header><section>
 
-It is fascinating to stumble on websites that exist for many years, or even decades. Sites like https://meyerweb.com/ have posts from 1999. This was a time before I even started to realise what the internet is and how to access it.
+It is fascinating to stumble on websites that exist for many years, or even decades. Sites like [https://meyerweb.com/](https://meyerweb.com/) have posts from 1999. This was a time before I even started to realise what the internet is and how to access it.
 
 This got me thinking 💭---_Will my blog still exist in 10 years?_
 
