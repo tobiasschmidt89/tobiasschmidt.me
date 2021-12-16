@@ -25,8 +25,6 @@ const imageLazyLoading = [
     }
 ]
 
-
-
 export default [
     externalLinkAttributes,
     imageLazyLoading
