@@ -183,7 +183,7 @@ dl dd {
 hr {
     border: none;
     border-block-start: var(--border);
-    width: 100%;
+    inline-size: 100%;
 }
 
 * + hr,
@@ -196,7 +196,8 @@ figure[style*='overflow-x'] {
 }
 
 figure[style*='overflow-x'] > figure {
-    padding: 0 var(--gap) var(--gap);
+    padding-block: 0 var(--gap);
+    padding-inline: var(--gap);
 }
 
 figcaption {
@@ -215,7 +216,7 @@ img {
     display: block;
     inline-size: 100%;
     max-inline-size: 100%;
-    height: auto;
+    block-size: auto;
     -ms-interpolation-mode: bicubic;
 }
 
@@ -235,7 +236,8 @@ table th {
 
 table th,
 table td {
-    padding: var(--gap) calc(0.75 * var(--gap));
+    padding-block: var(--gap);
+    padding-inline: calc(0.75 * var(--gap));
     border-block-end: var(--border);
 }
 
