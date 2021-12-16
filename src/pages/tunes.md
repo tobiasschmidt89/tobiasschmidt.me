@@ -50,7 +50,7 @@ I own [Collin Goldie] Low D, Low C, Low F, [Kerry Whistles] Chieftain V5 Low D a
 -   🙂 [Da Slockit Light](https://thesession.org/tunes/1863)
 -   🙂 [Heaton Chapel](https://thesession.org/tunes/572)
 -   🤔 [The Green Fields Of Rossbeigh](https://thesession.org/tunes/322)
--   😐 [Cahir's Kitchen](https://thesession.org/tunes/1090)
+-   🙂 [Cahir's Kitchen](https://thesession.org/tunes/1090)
 
 </section><section>
 
