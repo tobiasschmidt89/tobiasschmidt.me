@@ -22,6 +22,8 @@ body {
     margin: auto;
     padding-block: var(--frame-block);
     padding-inline: var(--frame-inline);
+
+    background-color: var(--canvas);
 }
 
 body > main {
@@ -98,10 +100,12 @@ time {
 
 sub {
     font-feature-settings: 'subs' 1;
+    font-variant-position: sub;
 }
 
 sup {
     font-feature-settings: 'sups' 1;
+    font-variant-position: super;
 }
 
 a {
