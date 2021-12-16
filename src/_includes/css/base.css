@@ -4,10 +4,11 @@
     font-feature-settings: var(--text-settings);
     letter-spacing: var(--text-spacing);
     line-height: var(--text-height);
+    hanging-punctuation: first;
+
     color-scheme: light dark;
     color: var(--on-canvas);
     background-color: var(--canvas);
-    hanging-punctuation: first;
 }
 
 body {
