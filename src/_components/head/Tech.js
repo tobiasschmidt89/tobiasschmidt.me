@@ -12,7 +12,7 @@ export default ({site, url}) => `
 
 <!-- Robots -->
 <meta name="robots" content="index,follow" />
-<meta name="referrer" content="origin">
+<meta name="referrer" content="origin" />
 <link rel="canonical" href="${new URL(url, site?.url)}" />
 
 <!-- Theme -->
