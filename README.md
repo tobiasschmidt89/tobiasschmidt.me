@@ -8,4 +8,4 @@ Generator for my personal blog built with [Lume](https://lumeland.github.io/)
 
 ---
 
-Check out my [colophon](https://tobiasschmidt.me/styleguide/) to learn more about how I create my blog.
+Check out my [Colophon](https://tobiasschmidt.me/about/) to learn more about how I create my blog.
