@@ -1,0 +1,19 @@
+name: Deploy Site
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Git Repository
+        uses: actions/checkout@v2
+      - name: Setup Deno
+        uses: denolib/setup-deno@v2
+      - name: Run Lume
+        run: deno run -A https://deno.land/x/lume/ci.ts
+      - name: Deploy to FTP
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: ${{ secrets.SFTP_SERVER }}
+          ftp-username: ${{ secrets.SFTP_USER }}
+          ftp-password: ${{ secrets.SFTP_PASSWORD }}
+          local-dir: ./_site/
