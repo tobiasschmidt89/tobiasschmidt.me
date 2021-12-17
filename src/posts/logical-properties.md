@@ -32,8 +32,6 @@ After that, I used the translate function of Chrome and the `writing-mode`  CSS 
 
 ![Styleguide in Chinese and vertical writing mode.](/assets/img/styleguide-chinese-vertical-writing-mode.png)
 
-
-
 <footer>
 
 _Logical properties are a great example where a tiny change on the web platform can make the web more accessible and inclusive. The effort to implement the new properties is pretty much identical to the classic properties they replace. The development community "just" needs to adopt them. Personally, I am now fully committed to them over their historic counterparts. Maybe someone will translate and read my blog in Chinese one day and appreciate the work. Please [let me know](mailto:{{ author.email }}) in case there is something I can do to improve the reading experience for you!_
