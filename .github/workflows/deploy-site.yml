@@ -9,7 +9,7 @@ jobs:
       - name: Setup Deno
         uses: denolib/setup-deno@v2
       - name: Run Lume
-        run: deno run -A https://deno.land/x/lume/ci.ts
+        run: deno run -A https://deno.land/x/lume/ci.ts --dev
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
