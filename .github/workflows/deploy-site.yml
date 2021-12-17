@@ -1,5 +1,8 @@
 name: Deploy Site
-on: workflow_dispatch
+on:
+  push:
+    tags:
+    - '*'
 jobs:
   build:
     runs-on: ubuntu-latest
