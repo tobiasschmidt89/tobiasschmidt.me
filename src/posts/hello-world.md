@@ -8,13 +8,13 @@ date: 2021-09-17
 
 # [{{title}}](/)
 
-{{ comp.dateTime({date: date}) }}
+{{ comp.dateTime({date: date}) | safe }}
 
 </header><section>
 
 _Following the tradition of development tutorials I am today launching 🎉 my new blog with a hello world post. Its not perfect, its not finished, and it will have issues, but its live!_
 
-**Hi and thanks for checking by 👋 !**
+**Hi and thanks for checking by 👋**
 
 I have been working in the web and digitalisation industry for almost 10 years as a technology expert. When I started using the web we were neck deep in a phase called web 2.0. It was a time where forums, chats and social media platforms made it easier for everyone to contribute to the web. Platforms like Facebook, YouTube and Twitter finally pulled a critical mass of users into to the internet.
 
