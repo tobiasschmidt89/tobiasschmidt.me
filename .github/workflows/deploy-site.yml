@@ -13,8 +13,9 @@ jobs:
         uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
+        # Change to https://deno.land/x/lume/ci.ts in some weeks
       - name: Build site with Lume
-        run: deno run -A https://deno.land/x/lume/ci.ts
+        run: deno run -A https://raw.githubusercontent.com/lumeland/lume/master/ci.ts
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
