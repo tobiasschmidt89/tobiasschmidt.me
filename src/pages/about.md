@@ -38,7 +38,7 @@ My website features a simple blogging layout inspired by [manuelmoreale.com](htt
 
 On most websites, I often play around with the top menu before I read the first line of the actual content. Then I might be lost clicking through the pages of the site instead of reading the content I was interested in. Thus my website does not feature top navigation (often called burger navigation in web jargon). I did also avoid any sidebars, teasers or other elements that could introduce distractions throughout the reading experience. Visitors should be able to enjoy content _as is_ instead of being overloaded with other content.
 
-Instead, my website features old-school footer navigation with next and previous articles and a link to the homepage. The homepage offers a list of available links in long-form content. I hope this will help new visitors as an introduction to the sine.  Additionally, it is possible to go to the index page that lists all posts by clicking the page title. I am still undecided if I want to feature the newest post on the homepage like [manuelmoreale.com](https://manuelmoreale.com/). I like that I can leave Manu's site on one tab, refresh it every now and then to read his updates.
+Instead, my website features old-school footer navigation with next and previous articles and a link to the homepage. The homepage offers a list of available links in long-form content. I hope this will help new visitors as an introduction to the site. Additionally, it is possible to go to the index page that lists all posts by clicking the page title. I am still undecided if I want to feature the newest post on the homepage like [manuelmoreale.com](https://manuelmoreale.com/). I like that I can leave Manu's site on one tab, refresh it every now and then to read his updates.
 
 I implemented a monochrome colour scheme with a light and dark mode that reacts to the system settings of your operating system via CSS media queries. I decided to not provide a manual theme switcher as this would require setting a cookie or local storage on your browser. This is something I avoid to leave a minimal footprint on your system.
 
@@ -62,6 +62,8 @@ Content images are lazy-loaded with the native `loading="lazy"` feature of brows
 ## Hosting
 
 This site is hosted on a [Hetzner] server. The connection is encrypted with a TLS certificate. I created a [custom server configuration](/server/) that optimises sever performance by using [good caching defaults](https://web.dev/love-your-cache/) and file compression. Additionally, I configured the server to instruct browsers to send as little personal information as possible.
+
+The source code is open-source on [GitHub](https://github.com/tobiasschmidt89/tobiasschmidt.me). I use a custom [GitHub Action](https://github.com/tobiasschmidt89/tobiasschmidt.me/blob/main/.github/workflows/deploy-site.yml) to build and deploy the website on my Hetzner server whenever I push commits with a new tag. This allows me to decide when I want to actually update the site.
 
 </section>
 
