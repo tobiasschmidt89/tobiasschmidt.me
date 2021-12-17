@@ -36,7 +36,6 @@ generator
 generator
     .copy('assets/fonts')
     .copy('assets/img')
-    .copy('assets/js')
     .copy('tobiasschmidt.pgp')
 
 for (let p of preprocess) {
