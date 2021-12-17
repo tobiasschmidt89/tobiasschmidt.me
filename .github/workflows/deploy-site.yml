@@ -8,8 +8,12 @@ jobs:
         uses: actions/checkout@v2
       - name: Setup Deno
         uses: denolib/setup-deno@v2
+      - name: Install Lume
+        run: deno run -A https://deno.land/x/lume/install.ts
+      - name: Upgrade Lume Dev
+        run: lume upgrade --dev
       - name: Run Lume
-        run: deno run -A https://deno.land/x/lume/ci.ts --dev
+        run: lume
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
