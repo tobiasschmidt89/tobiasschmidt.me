@@ -1,7 +1,7 @@
 ---
 title: Using logical CSS properties
 description: My experience with using logical properties.
-date: 2021-12-16
+date: 2021-12-17
 ---
 
 <header>
