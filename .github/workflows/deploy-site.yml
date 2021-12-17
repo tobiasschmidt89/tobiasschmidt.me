@@ -11,9 +11,12 @@ jobs:
       - name: Run Lume
         run: deno run -A https://deno.land/x/lume/ci.ts
       - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
-          ftp-server: ${{ secrets.SFTP_SERVER }}
-          ftp-username: ${{ secrets.SFTP_USER }}
-          ftp-password: ${{ secrets.SFTP_PASSWORD }}
+          server: ${{ secrets.FTP_SERVER }}
+          protocol: ftps
+          port: ${{ secrets.FTP_PORT }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./_site/
+          server-dir: test/
