@@ -1,8 +1,7 @@
 ---
 title: Deploy Lume with GitHub Actions
 description: My experience with deploying my static Lume site with GitHub Actions.
-date: 2021-12-18
-draft: true
+date: 2021-12-17
 ---
 
 <header>
