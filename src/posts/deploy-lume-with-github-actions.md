@@ -43,11 +43,11 @@ on:
 (...)
 ```
 
-During development, I used a different trigger `workflow_dispatc` that allows to manually trigger the Action in the GitHub Action web interface. At this state my `yaml` looked like this:
+During development, I used a different trigger `workflow_dispatch` that allows to manually trigger the Action in the GitHub Action web interface. At this state my `yaml` looked like this:
 
 ```
 name: Deploy Site
-on: workflow_dispatc
+on: workflow_dispatch
 ```
 
 This was a good way to avoid the need to push updates to trigger the Action until I solved the actual tasks.
@@ -56,7 +56,7 @@ This was a good way to avoid the need to push updates to trigger the Action unti
 
 ## Tasks
 
-The second part of the GitHub Action `yaml` contains the actual steps I need to perform to deploy the site. When a GitHub Action is triggered it basically sets up a new server and runs the specified commands. Most of these tasks have already be solved. They are packages that are shared open-source on GitHub. So instead of writing a custom script to send my files to the FTP server I could simply load and configure an available FTP Action.
+The second part of the GitHub Action `yaml` contains the actual steps I need to perform to deploy the site. When a GitHub Action is triggered it basically sets up a new server and runs the specified commands. Most of these tasks have already be solved. GitHub Actions has hundreds of packages that are shared open-source on GitHub to solve common tasks. So instead of writing a custom script to send my files to the FTP server I can simply load and configure an available FTP Action.
 
 For my use case I have the following tasks:
 1. I need to set up the server.
@@ -67,7 +67,7 @@ For my use case I have the following tasks:
 
 Each step usually consists of a `name` and an external Action or `run` command. The `uses` command loads an external Action---the `with` property can be used for configuration. The `run` command allows running a shell command on the server for simple tasks that do not require a script.
 
-The tasks (or steps) of my Action `yaml` looks like this. I added the numbers of the above tasks for reference:
+The tasks (or steps) of my Action `yaml` look like this. I added the numbers of the above tasks for reference:
 
 ```yaml
 (...)
@@ -86,11 +86,11 @@ jobs:
       - name: Deploy to FTP # 5
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          server: ${{ "{{" }} secrets.FTP_SERVER {{ "}}"  }}
           protocol: ftps
-          port: ${{ secrets.FTP_PORT }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ "{{" }} secrets.FTP_PORT {{ "}}"  }}
+          username: ${{ "{{" }} secrets.FTP_USER {{ "}}"  }}
+          password: ${{ "{{" }} secrets.FTP_PASSWORD {{ "}}"  }}
           local-dir: ./_site/
 ```
 
