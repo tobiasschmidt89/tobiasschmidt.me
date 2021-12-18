@@ -94,7 +94,7 @@ jobs:
           local-dir: ./_site/
 ```
 
-One thing to be very careful when working with Actions is that the `yaml` file is available publicly. This means any password is displayed in plain text to the entire world. Luckily GitHub offers [Secrets](https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md) that can be used to hide such details from the public. E.g. I put the FTP Username, URL, Port and Password in a GitHub Secret. Then they can be accessed via the `secret` property.
+One thing to be very careful when working with Actions is that the `yaml` file is available publicly. This means any password is displayed in plain text to the entire world. Luckily GitHub offers [Secrets](https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md) that can be used to hide such details from the public. E.g. I put the FTP Username, URL, Port and Password in a GitHub Secret. Then they can be accessed via the `secrets` property.
 
 ---
 
@@ -102,7 +102,7 @@ That is it. The setup was quite fast and took maybe 30 minutes after I figured o
 
 </section><footer>
 
-_I am looking forward to implementing more Actions. I want to implement a POSSE system that automatically syndicates my posts to social platforms like Twitter and LinkedIn. What kind of GitHub Actions do you use for static site generators? [Let me know]._
+_I am looking forward to implementing more Actions. I want to implement a POSSE system that automatically syndicates my posts to social platforms like Twitter and LinkedIn. What kind of GitHub Actions do you use for static site generators? [Let me know](mailto:{{ author.email }}._
 
 </footer>
 
