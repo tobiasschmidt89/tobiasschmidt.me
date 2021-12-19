@@ -45,7 +45,6 @@ jobs:
           path: ./_syndication.json
           contents: |
               ${{ steps.statusout.outputs.status }}
-          write-mode: overwrite
       - name: Commit Status File
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
