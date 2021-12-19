@@ -37,7 +37,7 @@ jobs:
           status: ${{ steps.statusin.outputs.content }}
           targets: twitter
           twitter-consumer-key: ${{ secrets.TWITTER_APP_KEY }}
-          twitter-consumer-secret: ${{ secrets.TWITTER_APP_SECRETS }}
+          twitter-consumer-secret: ${{ secrets.TWITTER_APP_SECRET }}
           twitter-access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           twitter-access-token-secret: ${{ secrets.TWITTER_ACCESS_SECRET }}
       - name: Write Status File
