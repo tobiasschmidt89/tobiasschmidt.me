@@ -22,7 +22,7 @@ jobs:
         uses: juliangruber/read-file-action@v1
         id: statusin
         with:
-          path: ./.github/workflows/syndicate-feed/status.json
+          path: ./src/_data/syndication.json
       - name: Syndicate Feed
         uses: tobiasschmidt89/syndicate-feed@main
         id: statusout
@@ -38,7 +38,7 @@ jobs:
       - name: Write Status File
         uses: DamianReeves/write-file-action@v1.0
         with:
-          path: ./.github/workflows/syndicate-feed/status.json
+          path: ./src/_data/syndication.json
           contents: |
               ${{ steps.statusout.outputs.status }}
           write-mode: overwrite
