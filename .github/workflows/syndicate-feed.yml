@@ -1,0 +1,47 @@
+name: Syndicate Posts
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Git Repository
+        uses: actions/checkout@v2
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+        # Change to https://deno.land/x/lume/ci.ts in some weeks
+      - name: Build site with Lume
+        run: deno run -A https://raw.githubusercontent.com/lumeland/lume/master/ci.ts
+      - name: Read Feed File
+        uses: juliangruber/read-file-action@v1
+        id: feedin
+        with:
+          path: ./_site/feed.json
+      - name: Read Status File
+        uses: juliangruber/read-file-action@v1
+        id: statusin
+        with:
+          path: ./.github/workfows/syndicate-feed/status.json
+      - name: Syndicate Feed
+        uses: tobiasschmidt89/syndicate-feed
+        id: statusout
+        with:
+          feed: ${{ steps.feedin.outputs.content }}
+          type: json
+          status: ${{ steps.statusin.outputs.content }}
+          targets: twitter
+          twitter-consumer-key: ${{ secrets.TWITTER_CONSUMER_KEY }}
+          twitter-consumer-secret: ${{ secrets.TWITTER_CONSUMER_SECRETS }}
+          twitter-access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          twitter-access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+      - name: Write Status File
+        uses: DamianReeves/write-file-action@v1
+        with:
+          path: ./.github/workfows/syndicate-feed/status.json
+          contents: ${{ steps.statusout.outputs.status }}
+          write-mode: overwrite
+      - name: Commit Status File
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: ./.github/workfows/syndicate-feed/status.json
