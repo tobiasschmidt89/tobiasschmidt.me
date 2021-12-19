@@ -36,7 +36,7 @@ jobs:
           twitter-access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           twitter-access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
       - name: Write Status File
-        uses: DamianReeves/write-file-action@v1
+        uses: DamianReeves/write-file-action
         with:
           path: ./.github/workfows/syndicate-feed/status.json
           contents: ${{ steps.statusout.outputs.status }}
