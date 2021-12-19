@@ -24,7 +24,7 @@ jobs:
         with:
           path: ./.github/workfows/syndicate-feed/status.json
       - name: Syndicate Feed
-        uses: tobiasschmidt89/syndicate-feed
+        uses: tobiasschmidt89/syndicate-feed@master
         id: statusout
         with:
           feed: ${{ steps.feedin.outputs.content }}
