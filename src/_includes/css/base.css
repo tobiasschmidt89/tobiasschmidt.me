@@ -278,10 +278,6 @@ details * + * {
     margin-block-start: var(--gap);
 }
 
-nav a {
-    display: block;
-}
-
 @media not screen and (hover: hover) {
 
     abbr[title] {

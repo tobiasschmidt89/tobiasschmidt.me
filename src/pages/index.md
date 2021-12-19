@@ -24,7 +24,7 @@ tags: index
 ## Writing
 
 <nav>{%- for post in search.pages("post") | reverse -%}
-<a href="{{post.data.url}}">{{ post.data.title }}</a>
+<a href="{{post.data.url}}">{{ post.data.title }}</a>{%- if loop.index !== loop.length -%}<br />{%- endif -%}
 {%- endfor -%}</nav>
 
 </section><section>
