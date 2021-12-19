@@ -47,3 +47,4 @@ jobs:
         with:
           add: ./.github/workflows/syndicate-feed/status.json
           push: origin main --set-upstream --force
+          token: ${{ secrets.GITHUB_TOKEN }}
