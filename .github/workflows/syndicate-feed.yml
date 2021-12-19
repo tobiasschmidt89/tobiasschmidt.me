@@ -39,7 +39,8 @@ jobs:
         uses: DamianReeves/write-file-action@v1.0
         with:
           path: ./.github/workflows/syndicate-feed/status.json
-          contents: ${{ steps.statusout.outputs.status }}
+          contents: |
+              ${{ steps.statusout.outputs.status }}
           write-mode: overwrite
       - name: Commit Status File
         uses: EndBug/add-and-commit@v7
