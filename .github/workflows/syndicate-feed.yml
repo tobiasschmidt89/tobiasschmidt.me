@@ -1,5 +1,9 @@
 name: Syndicate Posts
-on: workflow_dispatch
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'
+
 jobs:
   build:
     runs-on: ubuntu-latest
