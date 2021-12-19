@@ -46,3 +46,4 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           add: ./.github/workflows/syndicate-feed/status.json
+          push: origin main --force
