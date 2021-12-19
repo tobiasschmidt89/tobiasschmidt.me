@@ -278,7 +278,7 @@ details * + * {
     margin-block-start: var(--gap);
 }
 
-nav * {
+nav a {
     display: block;
 }
 
