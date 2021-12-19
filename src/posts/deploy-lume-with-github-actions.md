@@ -102,7 +102,7 @@ That is it. The setup was quite fast and took maybe 30 minutes after I figured o
 
 </section><footer>
 
-_I am looking forward to implementing more Actions. I want to implement a POSSE system that automatically syndicates my posts to social platforms like Twitter and LinkedIn. What kind of GitHub Actions do you use for static site generators? [Let me know](mailto:{{ author.email }}._
+_I am looking forward to implementing more Actions. I want to implement a POSSE system that automatically syndicates my posts to social platforms like Twitter and LinkedIn. What kind of GitHub Actions do you use for static site generators? [Let me know](mailto:{{ author.email }})._
 
 </footer>
 
