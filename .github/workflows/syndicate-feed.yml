@@ -3,6 +3,7 @@ name: Syndicate Posts
 on:
   schedule:
     - cron: '0 7 * * 1'
+  workflow_dispatch:
 
 jobs:
   build:
