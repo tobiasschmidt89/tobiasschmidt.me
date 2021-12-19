@@ -36,10 +36,10 @@ jobs:
           type: json
           status: ${{ steps.statusin.outputs.content }}
           targets: twitter
-          twitter-consumer-key: ${{ secrets.TWITTER_CONSUMER_KEY }}
-          twitter-consumer-secret: ${{ secrets.TWITTER_CONSUMER_SECRETS }}
+          twitter-consumer-key: ${{ secrets.TWITTER_APP_KEY }}
+          twitter-consumer-secret: ${{ secrets.TWITTER_APP_SECRETS }}
           twitter-access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          twitter-access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          twitter-access-token-secret: ${{ secrets.TWITTER_ACCESS_SECRET }}
       - name: Write Status File
         uses: DamianReeves/write-file-action@v1.0
         with:
