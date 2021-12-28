@@ -26,13 +26,8 @@ body {
     background-color: var(--canvas);
 }
 
-body > main {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    gap: var(--gutter);
-}
-
-main, article {
+body > main,
+article {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     gap: var(--gutter);
