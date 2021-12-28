@@ -9,14 +9,13 @@ pre {
     white-space: pre-line;
     word-wrap: break-word;
 
-    padding: var(--gap) calc(var(--gap));
+    padding: var(--gap);
     border: var(--border);
-    max-width: calc(100% + 2 * 0.75 * var(--gap));
+    max-block-size: calc(100% + 2 * 0.75 * var(--gap));
     overflow-x: auto;
 }
 
 :not(figure) > pre {
-    margin-inline: calc(-1 * var(--gap));
     margin-inline: calc(-1 * var(--gap));
 }
 
