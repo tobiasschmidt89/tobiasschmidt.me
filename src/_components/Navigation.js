@@ -3,13 +3,13 @@ export default ({prevPost = "", nextPost = ""}) => `
     ${nextPost && `
     <div>
         Older<br>
-        <a href="${nextPost.data.url}" rel="next">${nextPost.data.title}</a>
+        <a href="${nextPost.data.url}" rel="prev">${nextPost.data.title}</a>
     </div>
     `}
     ${prevPost && `
         <div>
             Newer<br>
-            <a href="${prevPost.data.url}" rel="prev">${prevPost.data.title}</a>
+            <a href="${prevPost.data.url}" rel="next">${prevPost.data.title}</a>
         </div>
     `}
     <div>
