@@ -66,12 +66,12 @@ h1, h2, h3 {
     font-weight: var(--bold);
 }
 
-h4, h5, h6 {
-    display: none;
-}
-
 h3 {
     font-style: italic;
+}
+
+h4, h5, h6 {
+    display: none;
 }
 
 * + h2 {
