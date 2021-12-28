@@ -5,7 +5,6 @@ import inline from 'lume/plugins/inline.ts'
 import postcss from 'lume/plugins/postcss.ts'
 import slugifyUrls from 'lume/plugins/slugify_urls.ts'
 import codeHighlight from 'lume/plugins/code_highlight.ts'
-import components from 'https://raw.githubusercontent.com/lumeland/experimental-plugins/main/components/components.ts';
 
 import markdown from './_markdown.js'
 import preprocess from './_preprocess.js'
@@ -18,6 +17,9 @@ const generator = lume(
     {
         location: new URL('/', site.url),
         src: './src',
+        components: {
+            cssFile: "/assets/css/components.css"
+        }
     },
     { markdown }
 )
@@ -29,9 +31,6 @@ generator
     .use(postcss())
     .use(slugifyUrls())
     .use(codeHighlight())
-    .use(components({
-        cssFile: "/assets/css/components.css",
-    }))
 
 generator
     .copy('assets/fonts')
