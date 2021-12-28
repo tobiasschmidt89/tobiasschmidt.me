@@ -2,9 +2,11 @@
 
 Generator for my personal blog built with [Lume](https://lumeland.github.io/)
 
-- Code repository made public for educational purpose.
-- License for code files is MIT.
-- Content (Markdown files, Images, etc.) may not be used or copied without my permission.
+---
+
+- Code made public for educational purpose and inspiration.
+- License for theme, templates and css code is MIT.
+- Content (posts, pages, markdown content, images, fonts, icons, etc.) may not be used or copied without my permission.
 
 ---
 
