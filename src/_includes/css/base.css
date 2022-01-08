@@ -78,12 +78,14 @@ h4, h5, h6 {
     margin-block-start: var(--gap);
 }
 
-b, strong {
-    font-weight: var(--bold);
-}
-
-i, em {
+b, strong,
+i,  em {
+    font-weight: normal;
+    font-family: var(--text-serif-stack);
     font-style: italic;
+    font-size: var(--text-serif-size);
+    line-height: var(--text-serif-height);
+    letter-spacing: var(--text-serif-spacing);
 }
 
 s {
@@ -124,7 +126,12 @@ blockquote {
     border-width: 0.3em;
     padding-inline-start: calc(var(--gap) * 0.4);
     margin-inline-start: calc(var(--gap) * -0.4 - 0.3em);
+
+    font-family: var(--text-serif-stack);
     font-style: italic;
+    font-size: var(--text-serif-size);
+    line-height: var(--text-serif-height);
+    letter-spacing: var(--text-serif-spacing);
 }
 
 address * {
