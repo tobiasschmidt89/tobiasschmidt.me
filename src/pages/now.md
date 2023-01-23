@@ -3,7 +3,7 @@ url: /now/
 title: Now
 subtitle: What I'm currently doing
 description: What Im currently doing
-date: 2021-12-16
+date: 2023-01-23
 tags: now
 ---
 
@@ -18,11 +18,9 @@ tags: now
 
 👨‍👩‍👧 Learning to parent while parenting my lovely daughter.
 
-🤖 Working on DMP & CDP projects as a Senior Solution Consultant at Plan.Net. Building a team.
+🤖 Working on digital communication projects at Rentschler Biopharma.
 
-💻 Fine-tuning the css stylesheet of my blog. Trying to find a serif font that I want to use for italics.
-
-🖼 Trying out generative art after reading [this essay of Tyler Hobbs](https://tylerxhobbs.com/essays/2019/code-goes-in-art-comes-out). Maybe it will become a new hobby of mine---but I need to refresh my Geometry skills for it. At least it helps me to level up my JavaScript, SVG and Canvas skills.
+💻 Working on a major update of my site. Focusing on learning native web components.
 
 🎶 Practicing [Cahir's Kitchen](https://thesession.org/tunes/1090) song on my low D [tin whistle](/tunes/).
 
